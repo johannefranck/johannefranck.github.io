@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Election analysis</title>
+  <style>
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 55%;
+      width: 50%;
+      height: 100%;
+      background: url('/assets/debate_illustration.png') no-repeat center center;
+      background-size: contain;
+      opacity: 0.7; /* control transparency */
+      z-index: 1;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .hero {
+      display: block; /* <-- removes unwanted flex behavior */
+      padding: 400px 60px 80px;
+      background: rgb(105, 219, 237);
+      color: rgb(43, 41, 41);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero-content {
+      position: relative;
+      max-width: 800px;
+      margin-left: 0; /* align left */
+      z-index: 2;
+      display: block; /* remove any inherited flex behavior */
+    }
+  
+    .course-header {
+      font-size: 0.9em;
+      font-weight: 500;
+      color: #acacaf;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+      text-align: left;
+    }
+    
+    .hero-text {
+      text-align: left;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .hero-text h1 {
+      font-size: 2.7em;
+      margin: 0 0 15px;
+      font-weight: 550;
+      line-height: 1.2;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    
+    .hero-text p {
+      font-size: 1.4em;
+      margin: 0;
+      text-shadow: 1px 1px 3px rgba(42, 41, 41, 0.25);
+    }
+  
+    /* Image behind the text on the left */
+    .hero-image {
+      position: absolute;
+      top: -45px;
+      left: 40%;
+      max-width: 400px;
+      opacity: 0.9;
+      z-index: 1;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+  
+    .content {
+      padding: 2em 60px;
+      max-width: 800px;
+      margin: auto;
+    }
+  
+    @media (max-width: 800px) {
+      .hero {
+        padding: 40px 20px;
+      }
+    
+      .hero-image {
+        top: auto;
+        bottom: 0;
+        opacity: 0.15;
+        max-width: 80%;
+        left: 10%;
+      }
+    
+      .hero-text h1 {
+        font-size: 2em;
+      }
+    
+      .hero-text p {
+        font-size: 1.2em;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: #ffffff;
+      padding: 12px 60px;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .navbar-right {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar-right li a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+      transition: color 0.3s;
+    }
+    
+    .navbar-right li a:hover {
+      color: #e74c3c;
+    }
+    
+  </style>
+  
+  <body>
+
+    <nav class="navbar">
+      <div class="navbar-left">
+        <span class="course-header">Election Trends in Copenhagen</span>
+      </div>
+      <ul class="navbar-right">
+        <li><a href="#dataset">Home</a></li>
+        <li><a href="#dataset">Data</a></li>
+        <li><a href="#over-time">Elections</a></li>
+        <li><a href="#districts">Demographics</a></li>
+        <li><a href="#description">Example Case</a></li>
+      </ul>
+    </nav>
+    
+    <div class="hero">  
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Election Trends in Copenhagen</h1>
+          <p>Election Data by Demographics how the patterns unfold</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="copenhagen-map"><a id="welcome"></a>Copenhagen map</h2>
+
+    </div>
+  
+    <footer style="background: #f2f2f2; text-align: left; padding: 20px; font-size: 0.95em; color: #333;">
+      @Jasmin Thari, Johanne Franck & Smilla Due &mdash; for the class of Social Data Analysis and Visualization &mdash; Final Project<br>
+    </footer>
+  </body>
+  
+</html>
