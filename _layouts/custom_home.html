@@ -23,13 +23,15 @@
     }
   
     .hero {
-      display: block; /* <-- removes unwanted flex behavior */
+      display: block; 
+      align-items: center;     /* center vertically */
       padding: 400px 60px 80px;
-      background: rgb(105, 219, 237);
-      color: rgb(43, 41, 41);
+      background: #6A66B2; /*rgb(105, 219, 237);*/
+      color: #fff;/*rgb(43, 41, 41);*/
       position: relative;
       overflow: hidden;
     }
+
     
     .hero-content {
       position: relative;
@@ -42,7 +44,7 @@
     .course-header {
       font-size: 0.9em;
       font-weight: 500;
-      color: #acacaf;
+      color: #fff;
       margin-bottom: 20px;
       letter-spacing: 0.5px;
       text-align: left;
@@ -91,6 +93,13 @@
       max-width: 800px;
       margin: auto;
     }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 0 60px;
+    }
+
   
     @media (max-width: 800px) {
       .hero {
@@ -119,17 +128,23 @@
     }
     
     .navbar {
-      position: sticky;
+      position: absolute; /* CHANGE from sticky to absolute */
       top: 0;
-      background-color: #ffffff;
+      left: 0;            /* ADD this */
+      right: 0;           /* ADD this */
+      background-color: transparent; 
       padding: 12px 60px;
       z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: none;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+      font-family: 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 0.5px;
+      font-size: 1.2em;
     }
+
     
     .navbar-right {
       list-style: none;
@@ -137,17 +152,22 @@
       gap: 25px;
       margin: 0;
       padding: 0;
+      font-family: 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 0.5px;
     }
     
     .navbar-right li a {
       text-decoration: none;
       font-weight: 500;
-      color: #333;
+      color: #fff; /* from #333 to white */
+      font-family: 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 0.5px;
       transition: color 0.3s;
     }
     
     .navbar-right li a:hover {
-      color: #e74c3c;
+      color: #121111;
+      text-decoration: underline;
     }
     
   </style>
@@ -159,16 +179,16 @@
         <span class="course-header">Election Trends in Copenhagen</span>
       </div>
       <ul class="navbar-right">
-        <li><a href="#dataset">Home</a></li>
-        <li><a href="#dataset">Data</a></li>
-        <li><a href="#over-time">Elections</a></li>
-        <li><a href="#districts">Demographics</a></li>
-        <li><a href="#description">Example Case</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/data">DATA</a></li>
+        <li><a href="/elections">ELECTIONS</a></li>
+        <li><a href="/demographics">DEMOGRAPHICS</a></li>
+        <li><a href="/studycase">STUDYCASE</a></li>
       </ul>
     </nav>
     
     <div class="hero">  
-      <div class="hero-content">
+      <div class="hero-content container">
         <div class="hero-text">
           <h1>Election Trends in Copenhagen</h1>
           <p>Election Data by Demographics how the patterns unfold</p>
@@ -181,7 +201,7 @@
     </div>
   
     <footer style="background: #f2f2f2; text-align: left; padding: 20px; font-size: 0.95em; color: #333;">
-      @Jasmin Thari, Johanne Franck & Smilla Due &mdash; for the class of Social Data Analysis and Visualization &mdash; Final Project<br>
+      @Jasmin Thari, Johanne Franck & Smilla Due &mdash; DTU SDAV Final Project<br>
     </footer>
   </body>
   

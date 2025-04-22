@@ -7,4 +7,17 @@ title: Election analysis
 subtitle: Analysis of Election Data in Copenhagen
 ---
 
-## <a id="welcome"></a>Copenhagen map
+## <a id="welcome"></a>Introduction
+
+We write very good motivation. Clear and straight to the point. Smilla is in charge.
+
+
+## <a id="basic-stats"></a>Basic Stats
+
+Good visualizations here. Jasmin in charge.
+
+
+
+For nice and fun intro to the project check out our super cool video. From Project Assignment A.
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Li7nbBsR0Qw" frameborder="0" allowfullscreen></iframe>
+
