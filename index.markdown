@@ -9,12 +9,8 @@ subtitle: Analysis of Election Data in Copenhagen
 
 ## <a id="welcome"></a>Introduction
 
-We write very good motivation. Clear and straight to the point. Smilla is in charge.
+We write a very good motivation. Clear and straight to the point. 
 
-
-## <a id="basic-stats"></a>Basic Stats
-
-Good visualizations here. Jasmin in charge.
 
 
 

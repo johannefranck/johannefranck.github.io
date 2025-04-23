@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <link rel="icon" href="../assets/compact_favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/compact_favicon.png" type="image/x-icon">
   <style>
     .hero::before {
       content: "";
@@ -11,28 +13,28 @@
       left: 55%;
       width: 50%;
       height: 100%;
-      background: url('/assets/debate_illustration.png') no-repeat center center;
       background-size: contain;
+      background-repeat: no-repeat; /* Prevent repeating */
+      background-position: center center; /* Center the image */
       opacity: 0.7; /* control transparency */
       z-index: 1;
     }
-    
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #4c4c4c;
     }
-  
+
     .hero {
-      display: block; 
+      display: block;
       align-items: center;     /* center vertically */
       padding: 400px 60px 80px;
-      background: #6A66B2; /*rgb(105, 219, 237);*/
       color: #fff;/*rgb(43, 41, 41);*/
       position: relative;
       overflow: hidden;
     }
 
-    
     .hero-content {
       position: relative;
       max-width: 800px;
@@ -40,7 +42,7 @@
       z-index: 2;
       display: block; /* remove any inherited flex behavior */
     }
-  
+
     .course-header {
       font-size: 0.9em;
       font-weight: 500;
@@ -49,13 +51,13 @@
       letter-spacing: 0.5px;
       text-align: left;
     }
-    
+
     .hero-text {
       text-align: left;
       position: relative;
       z-index: 2;
     }
-    
+
     .hero-text h1 {
       font-size: 2.7em;
       margin: 0 0 15px;
@@ -63,31 +65,13 @@
       line-height: 1.2;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     }
-    
-    
+
     .hero-text p {
       font-size: 1.4em;
       margin: 0;
       text-shadow: 1px 1px 3px rgba(42, 41, 41, 0.25);
     }
-  
-    /* Image behind the text on the left */
-    .hero-image {
-      position: absolute;
-      top: -45px;
-      left: 40%;
-      max-width: 400px;
-      opacity: 0.9;
-      z-index: 1;
-    }
 
-    .hero-image img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-
-  
     .content {
       padding: 2em 60px;
       max-width: 800px;
@@ -100,12 +84,11 @@
       padding: 0 60px;
     }
 
-  
     @media (max-width: 800px) {
       .hero {
         padding: 40px 20px;
       }
-    
+
       .hero-image {
         top: auto;
         bottom: 0;
@@ -113,11 +96,11 @@
         max-width: 80%;
         left: 10%;
       }
-    
+
       .hero-text h1 {
         font-size: 2em;
       }
-    
+
       .hero-text p {
         font-size: 1.2em;
       }
@@ -126,13 +109,13 @@
     html {
       scroll-behavior: smooth;
     }
-    
+
     .navbar {
       position: absolute; /* CHANGE from sticky to absolute */
       top: 0;
       left: 0;            /* ADD this */
       right: 0;           /* ADD this */
-      background-color: transparent; 
+      background-color: transparent;
       padding: 12px 60px;
       z-index: 1000;
       box-shadow: none;
@@ -145,7 +128,6 @@
       font-size: 1.2em;
     }
 
-    
     .navbar-right {
       list-style: none;
       display: flex;
@@ -155,7 +137,7 @@
       font-family: 'Arial Narrow', Arial, sans-serif;
       letter-spacing: 0.5px;
     }
-    
+
     .navbar-right li a {
       text-decoration: none;
       font-weight: 500;
@@ -164,45 +146,71 @@
       letter-spacing: 0.5px;
       transition: color 0.3s;
     }
-    
+
     .navbar-right li a:hover {
       color: #121111;
       text-decoration: underline;
     }
-    
+
+    /* Background color classes */
+    .background-data { background-color: #F3DCC6; }
+    .background-election { background-color: #FF9D5C; }
+    .background-demographics { background-color: #FF95A1; }
+    .background-studycase { background-color: #FF6273; }
+    .background-default { background-color: #6A66B2; }
+
+    /* Background image classes */
+    .background-image-data::before { background-image: url('/assets/image-data.png'); }
+    .background-image-election::before { background-image: url('/assets/image-election.png'); }
+    .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
+    .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
+    .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
   </style>
-  
-  <body>
+</head>
+<body>
 
-    <nav class="navbar">
-      <div class="navbar-left">
-        <span class="course-header">Election Trends in Copenhagen</span>
-      </div>
-      <ul class="navbar-right">
-        <li><a href="/">HOME</a></li>
-        <li><a href="/data">DATA</a></li>
-        <li><a href="/elections">ELECTIONS</a></li>
-        <li><a href="/demographics">DEMOGRAPHICS</a></li>
-        <li><a href="/studycase">STUDYCASE</a></li>
-      </ul>
-    </nav>
-    
-    <div class="hero">  
-      <div class="hero-content container">
-        <div class="hero-text">
-          <h1>Election Trends in Copenhagen</h1>
-          <p>Election Data by Demographics how the patterns unfold</p>
-        </div>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="course-header">Election Trends in Copenhagen</span>
+    </div>
+    <ul class="navbar-right">
+      <li><a href="/">HOME</a></li>
+      <li><a href="/data">DATA</a></li>
+      <li><a href="/elections">ELECTIONS</a></li>
+      <li><a href="/demographics">DEMOGRAPHICS</a></li>
+      <li><a href="/studycase">STUDYCASE</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero {% if page.title == 'Data' %}background-data background-image-data{% elsif page.title == 'Election Exploration' %}background-election background-image-election{% elsif page.title == 'Demographics' %}background-demographics background-image-demographics{% elsif page.title == 'Studycase' %}background-studycase background-image-studycase{% else %}background-default background-image-default{% endif %}">
+    <div class="hero-content container">
+      <div class="hero-text">
+        {% if page.title == "Data" %}
+          <h1>{{ page.hero_title }}</h1>
+          <p>{{ page.hero_subtitle }}</p>
+        {% elsif page.title == "Election Exploration" %}
+          <h1>{{ page.hero_title }}</h1>
+          <p>{{ page.hero_subtitle }}</p>
+        {% elsif page.title == "Demographics" %}
+          <h1>{{ page.hero_title }}</h1>
+          <p>{{ page.hero_subtitle }}</p>
+        {% elsif page.title == "Studycase" %}
+          <h1>{{ page.hero_title }}</h1>
+          <p>{{ page.hero_subtitle }}</p>
+        {% else %}
+          <h1>20 Years of Change</h1>
+          <p>Voting Trends in Copenhagen’s National Elections</p>
+        {% endif %}
       </div>
     </div>
+  </div>
 
-    <div class="content">
-      {{ content }}
-    </div>
-  
-    <footer style="background: #f2f2f2; text-align: left; padding: 20px; font-size: 0.95em; color: #333;">
-      @Jasmin Thari, Johanne Franck & Smilla Due &mdash; DTU SDAV Final Project<br>
-    </footer>
-  </body>
-  
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <footer style="background: #f2f2f2; text-align: left; padding: 20px; font-size: 0.95em; color: #333;">
+    @Jasmin Thari, Johanne Franck & Smilla Due &mdash; DTU SDAV Final Project<br>
+  </footer>
+</body>
 </html>

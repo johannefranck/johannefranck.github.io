@@ -4,6 +4,8 @@
 
 layout: custom_home
 title: Studycase 
+hero_title: Tårnby &mdash; A Studycase
+hero_subtitle: Diving Deep into the Trends and Change in an Interesting District
 ---
 
 ## <a id="studycase"></a>Studycase

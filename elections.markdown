@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: custom_home
-title: Election exploration 
+title: Election Exploration 
+hero_title: Election Exploration
+hero_subtitle: The Patterns and Trends for the 6 Elections by Districts
 ---
 
 ## <a id="elections"></a>Elections data
