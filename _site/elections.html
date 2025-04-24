@@ -9,17 +9,17 @@
     .hero::before {
       content: "";
       position: absolute;
-      top: 0;
-      left: 55%;
+      top: 2%;
+      left: 53%;
       width: 50%;
       height: 100%;
+      background-image: url('/assets/cph_static_map.png');
       background-size: contain;
       background-repeat: no-repeat; /* Prevent repeating */
       background-position: center center; /* Center the image */
-      opacity: 0.7; /* control transparency */
+      opacity: 1; /* control transparency */
       z-index: 1;
     }
-
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,18 +153,8 @@
     }
 
     /* Background color classes */
-    .background-data { background-color: #F3DCC6; }
-    .background-election { background-color: #FF9D5C; }
-    .background-demographics { background-color: #FF95A1; }
-    .background-studycase { background-color: #FF6273; }
-    .background-default { background-color: #6A66B2; }
+    .background-election { background-color: #ffcc70; }
 
-    /* Background image classes */
-    .background-image-data::before { background-image: url('/assets/image-data.png'); }
-    .background-image-election::before { background-image: url('/assets/image-election.png'); }
-    .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
-    .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
-    .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
   </style>
 </head>
 <body>
