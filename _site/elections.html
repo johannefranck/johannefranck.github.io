@@ -9,17 +9,17 @@
     .hero::before {
       content: "";
       position: absolute;
-      top: 2%;
-      left: 53%;
+      top: 0;
+      left: 55%;
       width: 50%;
       height: 100%;
-      background-image: url('/assets/cph_static_map.png');
       background-size: contain;
       background-repeat: no-repeat; /* Prevent repeating */
       background-position: center center; /* Center the image */
       opacity: 1; /* control transparency */
       z-index: 1;
     }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,8 +153,18 @@
     }
 
     /* Background color classes */
+    .background-data { background-color: #F3DCC6; }
     .background-election { background-color: #ffcc70; }
+    .background-demographics { background-color: #FF95A1; }
+    .background-studycase { background-color: #FF6273; }
+    .background-default { background-color: #6A66B2; }
 
+    /* Background image classes */
+    .background-image-data::before { background-image: url('/assets/image-data.png'); }
+    .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
+    .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
+    .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
+    .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
   </style>
 </head>
 <body>
