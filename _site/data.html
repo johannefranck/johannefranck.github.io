@@ -20,6 +20,10 @@
       z-index: 1;
     }
 
+    .background-image-data::before {
+      background-size: 70%; /* or whatever size you want */
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -152,15 +156,15 @@
       text-decoration: underline;
     }
 
-    /* Background color classes */
-    .background-data { background-color: #F3DCC6; }
+    /* Background color classes #66B8E3 */
+    .background-data { background-color: #59B6E7; } 
     .background-election { background-color: #ffcc70; }
     .background-demographics { background-color: #FF95A1; }
     .background-studycase { background-color: #FF6273; }
     .background-default { background-color: #6A66B2; }
 
     /* Background image classes */
-    .background-image-data::before { background-image: url('/assets/image-data.png'); }
+    .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
     .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
     .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
@@ -196,8 +200,63 @@
   <div class="content">
     <h2 id="data-overview"><a id="data-overview"></a>Data Overview</h2>
 
-<p>Look here for the very good introduction to our data.</p>
+    <section>
+      <p>The data for this study was obtained from <strong>Den Danske Valgdatabase</strong>, powered by <strong>Danmarks Statistik</strong>. This comprehensive database contains election data from Denmark dating back to 1979. It includes data from various types of elections, including:</p>
+    
+      <ul>
+        <li>National parliamentary elections (<em>folketingsvalg</em>)</li>
+        <li>European Parliament elections (<em>europaparlamentsvalg</em>)</li>
+        <li>Referendums (<em>folkeafstemninger</em>)</li>
+        <li>Municipal and regional elections (<em>kommunalvalg</em> and <em>regionsrådsvalg</em>)</li>
+        <li>Parliamentary elections in Greenland and the Faroe Islands</li>
+      </ul>
+    
+      <p>For the purpose of this project, we have chosen to focus specifically on <strong>national elections in the Copenhagen constituency</strong> over the past two decades. This includes the elections held in the years:</p>
+    
+      <p><strong>2001, 2005, 2007, 2011, 2015, and 2019</strong> — resulting in a total of six elections.</p>
+    
+      <p>The extracted election data includes:</p>
+    
+      <ul>
+        <li>Total number of votes cast</li>
+        <li>Number of votes per political party across constituencies</li>
+      </ul>
+    
+      <p>We filtered the dataset to include only constituencies within the <strong>Copenhagen constituency (Københavns Storkreds)</strong>. These constituencies are:</p>
+    
+      <ol>
+        <li>Østerbrokredsen</li>
+        <li>Sundbyvesterkredsen</li>
+        <li>Indre Bykredsen</li>
+        <li>Sundbyøsterkredsen</li>
+        <li>Nørrebrokredsen</li>
+        <li>Bispebjergkredsen</li>
+        <li>Brønshøjkredsen</li>
+        <li>Valbykredsen</li>
+        <li>Vesterbrokredsen</li>
+        <li>Falkonerkredsen</li>
+        <li>Slotskredsen</li>
+        <li>Tårnbykredsen</li>
+      </ol>
+    
+      <p>In addition to election data, <strong>population data</strong> has also been extracted. This supplementary data allows for a deeper analysis of voting trends by investigating voting patterns in the context of population characteristics. 
+        Danmarks Statistik conducts a new population inventory every five years, with the most recent inventory completed in 2024. Previous inventories were conducted in 2019, 2014, 2009, and 2004, and these are aligned with the elections we are analyzing.</p>
 
+      <p>The election data is matched to the closest population inventory available at the time. This means:</p>
+
+      <ul>
+        <li>The 2005 and 2007 elections reference the 2004 inventory</li>
+        <li>The 2011 election references the 2009 inventory</li>
+        <li>The 2015 election references the 2014 inventory</li>
+        <li>The 2019 and 2022 elections reference the 2019 inventory</li>
+      </ul>
+
+      <p>As a result, the six elections in our study are connected to four different population inventories, which serve as the population reference points for our analysis.</p>
+
+      <p>From the avaiable popul data we have choosen to ...  </p>
+
+      </section>
+    
   </div>
 
   <footer style="background: #f2f2f2; text-align: left; padding: 50px; font-size: 0.95em; color: #333;">

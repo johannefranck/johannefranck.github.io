@@ -20,6 +20,10 @@
       z-index: 1;
     }
 
+    .background-image-data::before {
+      background-size: 70%; /* or whatever size you want */
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -152,15 +156,15 @@
       text-decoration: underline;
     }
 
-    /* Background color classes */
-    .background-data { background-color: #F3DCC6; }
+    /* Background color classes #66B8E3 */
+    .background-data { background-color: #59B6E7; } 
     .background-election { background-color: #ffcc70; }
     .background-demographics { background-color: #FF95A1; }
     .background-studycase { background-color: #FF6273; }
     .background-default { background-color: #6A66B2; }
 
     /* Background image classes */
-    .background-image-data::before { background-image: url('/assets/image-data.png'); }
+    .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
     .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
     .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
@@ -199,7 +203,7 @@
 <p>The dive into elections data.</p>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="assets/cph_static_map.png" alt="Districts over Time" style="width:100%; height:auto; border:none;" />
+  <img src="assets/cph_districts_map.png" alt="Districts over Time" style="width:100%; height:auto; border:none;" />
   <p style="font-size: 0.9em; color: #555; margin-top: 8px;">
     <strong>Figure 1:</strong> Visualisation of the different districts in Copenhagen.
   </p>
