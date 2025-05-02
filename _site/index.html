@@ -20,6 +20,20 @@
       z-index: 1;
     }
 
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 41%;
+      left: 22%;
+      width: 40%;             /* Adjust size */
+      height: 30%;            /* Adjust height */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom left;
+      opacity: 1;
+      z-index: 1;
+    }
+
     .background-image-data::before {
       background-size: 70%; /* or whatever size you want */
     }
@@ -167,9 +181,12 @@
     /* Background image classes */
     .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
+    .background-image-election::after { background-image: url('/assets/politiker_front.png'); }
     .background-image-demographics::before { background-image: url('/assets/image-demographics.png'); }
     .background-image-studycase::before { background-image: url('/assets/image-studycase.png'); }
     .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
+    .background-image-default::after { background-image: url('/assets/peps2.png'); }
+
   </style>
 </head>
 <body>
