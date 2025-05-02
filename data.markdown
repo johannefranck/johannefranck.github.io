@@ -54,10 +54,11 @@ We specifically filtered the data to the following constituencies within **Købe
     <li>Tårnbykredsen</li>
   </ul>
 
-  <div style="flex: 1; text-align: center;">
-    <img src="assets/cph_static_map.png" alt="Map of Copenhagen Constituencies" style="max-width: 90%; height: auto; border: 0px solid #ccc; border-radius: 6px;">
-    <p style="font-size: 0.9em; color: #555;">Illustration: Map of Københavns Storkreds</p>
-  </div>
+<iframe src="assets/copenhagen_districts_map.html" 
+        title="Interactive Map of Copenhagen Constituencies"
+        style="width: 75%; height: 250px; border: none;">
+</iframe>
+
 </div>
 
 In addition to election data, **population data** has also been extracted.  
