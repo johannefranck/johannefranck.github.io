@@ -40,17 +40,17 @@ We specifically filtered the data to the following constituencies within **Købe
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
   <ul style="flex: 1;">
-    <li>Østerbrokredsen</li>
-    <li>Sundbyvesterkredsen</li>
     <li>Indre Bykredsen</li>
-    <li>Sundbyøsterkredsen</li>
+    <li>Østerbrokredsen</li>
+    <li>Vesterbrokredsen</li>
     <li>Nørrebrokredsen</li>
     <li>Bispebjergkredsen</li>
     <li>Brønshøjkredsen</li>
     <li>Valbykredsen</li>
-    <li>Vesterbrokredsen</li>
     <li>Falkonerkredsen</li>
     <li>Slotskredsen</li>
+    <li>Sundbyvesterkredsen</li>
+    <li>Sundbyøsterkredsen</li>
     <li>Tårnbykredsen</li>
   </ul>
 
