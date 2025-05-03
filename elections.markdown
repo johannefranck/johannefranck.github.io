@@ -186,18 +186,24 @@ The 2011 election, which brought a national left-wing government after two terms
 
 It is interesting to see how *Socialdemokratiet* has been able to maintain a great share of voters in 2022 after many scandals the during the COVID-19 pandemic, where the Former Minister Mette Frederiksen was forced to sign election due to the Minkkommisionen offentliggjorde sin beretning which made Radikale Venstre push the government to sign election. (*Source: [danmarkshistorien.dk/Folketingsvalget2022](https://danmarkshistorien.lex.dk/Folketingsvalget_2022)*). This shows that the party has a strong base of loyal voters in Copenhagen, who are willing to overlook some of the party’s missteps. Cause we see that they actually still win in their strongholds the suburban districts like *Brønshøj*, *Valby*, *Sundbyvester*, and *Sundbyøster* - but also in *Tårnby*, *Falkoner*, and *Slots*. It could have been a beneficialt time for the election for Socialdemokratiet were we were in a difficult time in Europoe with the war in Ukraine and the energy crisis. Were the focus of the elections was about showing that we can create unity in times of crisis. (*Source: [TV2 Nyheder](https://nyheder.tv2.dk/politik/2022-10-05-derfor-gaar-mette-frederiksen-til-valg-paa-en-regering-henover-midten)*). 
 
+It is interesting to see how *Socialdemokratiet* managed to maintain a strong share of the vote in 2022, despite several scandals during the COVID-19 pandemic as the Mink and deleted messages. Most notably, Prime Minister Mette Frederiksen was pressured to call an early election after the *Mink Commission* released its report, leading *Radikale Venstre* to push the government to dissolve Parliament. (*Source: [danmarkshistorien.dk/Folketingsvalget2022](https://danmarkshistorien.lex.dk/Folketingsvalget_2022)*)
+
+This outcome suggests that the party has a solid base of loyal voters in Copenhagen — voters who remained supportive despite the controversies. In fact, *Socialdemokratiet* continued to win in many of its traditional strongholds, including suburban districts like *Brønshøj*, *Valby*, *Sundbyvester*, and *Sundbyøster*, as well as in *Tårnby*, *Falkoner*, and *Slots*.
+
+The timing of the election may also have worked in the party’s favor. Europe was facing significant uncertainty due to the war in Ukraine and an escalating energy crisis. In this context, *Socialdemokratiet* positioned itself as a unifying force — a party that could lead through crisis — which may have resonated with voters. (*Source: [TV2 Nyheder](https://nyheder.tv2.dk/politik/2022-10-05-derfor-gaar-mette-frederiksen-til-valg-paa-en-regering-henover-midten)*)
+
 
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
   <div style="text-align: center; max-width: 45%;">
-    <img src="assets/slettemette.png" 
+    <img src="assets/slette_mette.png" 
          alt="Climate Nuts" 
-         style="width: 100%; height: auto;" />
+         style="width: 100%; height: 400;" />
     <p style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
       Source: 
-      <a href="https://www.facebook.com/profile.php?id=100064848514652" 
+      <a href="https://politiken.dk/danmark/politik/folketingsvalg_2022/art8938209/Sådan-har-Politikens-tegnere-set-Mette-Frederiksens-tre-år-som-statsminister" 
          target="_blank" rel="noopener noreferrer">
-        Klimatosser (Facebook)
+        Poliken
       </a>
     </p>
   </div>
@@ -205,13 +211,17 @@ It is interesting to see how *Socialdemokratiet* has been able to maintain a gre
   <div style="text-align: center; max-width: 45%;">
     <img src="assets/midten.png" 
          alt="District Map" 
-         style="width: 100%; height: auto;" />
+         style="width: 100%; height: 300;" />
     <p style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
       Source: 
-      <a href="https://www.facebook.com/profile.php?id=100064848514652" 
+      <a href="hhttps://www.berlingske.dk/til-stregen/i-den-sorte-gryde" 
          target="_blank" rel="noopener noreferrer">
+         Berlingske
       </a>
     </p>
   </div>
 
 </div>
+
+
+varm op til næste afsnit! skriv om hvilke partier der har loyal   e vælgere og hvilke partier der har skiftende vælgere.
