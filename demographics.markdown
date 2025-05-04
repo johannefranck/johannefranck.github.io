@@ -49,6 +49,18 @@ Copenhagen’s population has changed notably over the past two decades, both in
 
 **Insert plot: Education level (e.g., primary, vocational, higher) by year**
 
+
+<figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
+        <iframe src="assets/education_stacked_line_plot.html" 
+                title="Interactive Bar Chart of Education Distribution Trends for Constituencies"
+                style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" 
+                height="550">
+        </iframe>
+        <figcaption style="margin-top: 0.75rem; font-style: italic;">
+        <strong>Figure X:</strong> OBS AGE! 
+        </figcaption>
+</figure>
+
 The proportion of immigrants and descendants of immigrants has grown steadily, especially in districts like Nørrebro and Bispebjerg. 
 
 In parallel, educational attainment has increased across the city. Inner districts in particular have a high share of university-educated residents. This aligns with broader urban trends where education level correlates with support for progressive parties, especially on issues such as climate change, equality, and education policy. Nørrebro has a very high share of highly educated residents while Tårnby on the other hand has very few higher educated residents. This might also be a result of the older residents in Tårnby compared to Nørrebro. 
