@@ -27,7 +27,7 @@ The city of Copenhagen has seen continuous population growth over the last 20 ye
 
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
-        <iframe src="assets/age_distribution.html" 
+        <iframe src="assets/age_stacked_line_plot.html" 
                 title="Interactive Bar Chart of Age Distribution Trends for Constituencies"
                 style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" 
                 height="550">
