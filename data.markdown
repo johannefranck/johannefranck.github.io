@@ -10,13 +10,9 @@ hero_subtitle: Discover the details behind the datasets
 
 ## <a id="dataset"></a>Dataset
 
-The foundation of this study is built on data from <a href="https://valgdatabase.dst.dk/data" target="_blank" style="color: #59B6E7; font-weight: bold;">Den Danske Valgdatabase</a>, powered by **Danmarks Statistik**. This comprehensive database contains election information from Denmark spanning back to 1979. The database includes data from a variety of election types:
+TODO: music text
 
-- **National parliamentary elections** (*folketingsvalg*)
-- **European Parliament elections** (*europaparlamentsvalg*)
-- **Referendums** (*folkeafstemninger*)
-- **Municipal and regional elections** (*kommunalvalg* and *regionsrådsvalg*)
-- **Parliamentary elections in Greenland and the Faroe Islands**
+The foundation of this study is built on data from <a href="https://valgdatabase.dst.dk/data" target="_blank" style="color: #59B6E7; font-weight: bold;">Den Danske Valgdatabase</a>, powered by **Danmarks Statistik**. This comprehensive database contains election information from Denmark spanning back to 1979. The database includes data from a variety of election types including **National parliamentary elections** (*folketingsvalg*).
 
 For this study, we focus on **national elections** within the **Copenhagen constituency (Københavns Storkreds)**, covering two decades and a total of six elections. This includes the elections held in the years:
 
@@ -81,9 +77,13 @@ In addition to voting data, we incorporated **population data** extracted from *
 
 Danmarks Statistik performs a **population census every five years**, with relevant years being:
 
+TODO: Change to orange number!
+
 - **2004, 2009, 2014, 2019, and 2024**
 
 For the analysis, each election year is matched to the closest available population statistics:
+
+TODO: make table ordentlig width.
 
 <div style="overflow-x: auto; margin: 14px 0;">
   <table style="width: 80%; margin: 0 auto; border-collapse: collapse; font-size: 1em; text-align: center; background-color: #f9f9f9; border: 1px solid #ddd;">
@@ -116,6 +116,7 @@ For the analysis, each election year is matched to the closest available populat
 
 The population data covers a wide range of characteristics, which we group into three main categories:
 
+TODO: Only two categories
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 30px 0;">
   
@@ -147,3 +148,10 @@ The population data covers a wide range of characteristics, which we group into 
 In total, the dataset consists of 45,984 entries across 46 variables, occupying 13.5 MB of space.
 
 ## <a id="basic-stat"></a>Basic Statistics
+
+
+turnout vote
+
+population increase
+
+income over cph

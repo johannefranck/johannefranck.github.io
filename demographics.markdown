@@ -3,12 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: custom_home
-title: Demographics 
-hero_title: Demographic Relations
-hero_subtitle: Exploring the Influence and Connection to the People in Copenhagen
+title: Sociodemographics 
+hero_title: Sociodemographics
+hero_subtitle: Exploring the Demographics and Sociodemographic data to the People in Copenhagen
 ---
 
-## <a id="demographics"></a>Demographics
+## <a id="Sociodemographics"></a>Sociodemographics
 
 
 Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.
@@ -75,8 +75,7 @@ These developments help explain shifts in electoral patterns across Copenhagen a
 
 ## Socioeconomic Status Across Constituencies
 
->🎵 *Is Nørrebro all red and bold?*
-
+>🎵 *Is Nørrebro all red and bold?*\
 >🎵 *Does Frederiksberg stay rich and cold?*  
 
 To understand economic well-being and its variation across the city, we begin by looking at the type of public support residents receive. 

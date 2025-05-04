@@ -23,8 +23,8 @@
     .hero::after {
       content: "";
       position: absolute;
-      top: 41%;
-      left: 22%;
+      top: 55%;
+      left: 70%;
       width: 40%;             /* Adjust size */
       height: 30%;            /* Adjust height */
       background-size: contain;
@@ -181,11 +181,11 @@
     /* Background image classes */
     .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
-    .background-image-election::after { background-image: url('/assets/politiker_front.png'); }
+    .background-image-election::after { background-image: url('/assets/politiker_front.png'); background-size: 50%; }
     .background-image-demographics::before { background-image: url('/assets/peps2.png'); background-size: 50%;}
     .background-image-studycase::before { background-image: url('/assets/peps_and_map.png'); background-size: 50%;}
     .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
-    .background-image-default::after { background-image: url('/assets/peps2.png'); }
+    /* .background-image-default::after { background-image: url('/assets/peps2.png'); } */
 
   </style>
 </head>
@@ -199,7 +199,7 @@
       <li><a href="/">HOME</a></li>
       <li><a href="/data">DATA</a></li>
       <li><a href="/elections">ELECTIONS</a></li>
-      <li><a href="/demographics">DEMOGRAPHICS</a></li>
+      <li><a href="/demographics">SOCIODEMOGRAPHICS</a></li>
       <li><a href="/studycase">FINAL INSIGHTS</a></li>
     </ul>
   </nav>
@@ -220,7 +220,7 @@
 
 <p>What kind of city is Copenhagen when it comes to politics? Is it dominated by a single ideology, or is it a political landscape shaped by shifting loyalties and local differences?</p>
 
-<p>To find out, we dive into nearly two decades of election data, tracking how the city’s districts have voted from 2005 to 2022. Our journey starts with a high-level overview of the political divide between left-wing and right-wing blocs — then narrows down to examine the rise and fall of individual parties and how district-level dynamics have shaped the broader political map.</p>
+<p>To find out, we dive into two decades of election data, tracking how the city’s districts have voted from 2005 to 2022. Our journey starts with a high-level overview of the political scene between left-wing and right-wing blocs — then narrows down to examine the rise and fall of individual parties.</p>
 
 <p>From climate debates to coalition politics, from stable party loyalties to shifting district dynamics, this exploration reveals a city in constant political transformation — shaped by issues, neighborhoods, and time.</p>
 
@@ -235,9 +235,9 @@
 
 <p>To find out, we take a closer look at the distribution of votes for the left-wing and right-wing blocs across constituencies in Copenhagen over the last six elections.</p>
 
-<p>Before we can analyze voting patterns, we need to draw the political boundaries. The table below shows how we’ve grouped Danish parties into left- and right-wing categories.</p>
+<p>Before we can analyze voting patterns, we need to draw the political boundaries. The table below shows how we have grouped Danish parties into left- and right-wing blocs.</p>
 
-<p style="margin-bottom: 0.5rem; text-align: center;"><strong>Table 1:</strong> Classification of Danish political parties into left-wing and right-wing.</p>
+<p style="margin-bottom: 0.5rem; text-align: center;"><strong>Table 1:</strong> Classification of appearing Danish political parties over the last 20 years into left-wing and right-wing.</p>
 <table style="width:100%; border-collapse: collapse; margin-bottom: 2rem; margin-left: auto; margin-right: auto;">
   <thead>
     <tr>
@@ -293,7 +293,7 @@
   </tbody>
 </table>
 
-<p>Most Danish parties have clear ideological leanings and are easy to group, while some define themselves as centrist and are more difficult to place. One example is Centrum Demokraterne (CD), a centrist party that broke away from Socialdemokratiet in 1973. While they collaborated with both political blocs during their time in Parliament, we’ve chosen to place them in the right-wing category. This decision reflects their ideological origins and the general rightward tilt of their policies (<em>Source: <a href="https://danmarkshistorien.lex.dk/Centrum-Demokraterne_1973-2008">danmarkshistorien.dk</a></em>). Another tricky case is the Moderaterne (M), a relatively new party founded in 2021 by former Prime Minister Lars Løkke Rasmussen. Although their first time in government (in 2022) involved a centrist coalition, we’ve chosen to classify them as right-leaning, based on their political stance and liberal-centrist identity, which places them closer to the center-right in Denmark’s political spectrum (<em>Source: <a href="https://moderaterne.dk/moderaterne-mener/">moderaterne.dk</a></em>).</p>
+<p>Most Danish parties have clear ideologies and are easy to group, while some define themselves as centrist and are more difficult to place. One example is Centrum Demokraterne (CD), a centrist party that broke away from Socialdemokratiet in 1973. While they collaborated with both political blocs during their time in Parliament, we have chosen to place them in the right-wing category. This decision reflects their ideological origins and the general rightward tilt of their policies (<em>Source: <a href="https://danmarkshistorien.lex.dk/Centrum-Demokraterne_1973-2008">danmarkshistorien.dk</a></em>). Another tricky case is the Moderaterne (M), a relatively new party founded in 2021 by former Prime Minister Lars Løkke Rasmussen. Although their first time in government (in 2022) involved a centrist coalition, we have chosen to classify them as right-leaning, based on their political stance and liberal-centrist identity, which places them closer to the center-right in Denmark’s political spectrum (<em>Source: <a href="https://moderaterne.dk/moderaterne-mener/">moderaterne.dk</a></em>).</p>
 
 <p>With these classifications in place, we can now explore how each of Copenhagen’s neighborhoods aligns politically — and whether the city speaks with one voice or many. To do so, we visualize the left-wing vote shares across the city’s twelve constituencies in the map below.</p>
 
@@ -301,22 +301,24 @@
   <iframe src="assets/map_wing_share.html" title="Interactive Map of Copenhagen Constituencies" style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" height="600">
   </iframe>
   <figcaption style="margin-top: 0.75rem; font-style: italic;">
-    <strong>Map 2:</strong> Left-wing vote shares across Copenhagen constituencies from 2005 to 2022. The map shows the percentage of votes received by left-wing parties in each constituency, with colors ranging from blue (indicating stronger right-wing support) to red (indicating stronger left-wing support). The redder the district, the stronger its tilt to the left; the bluer, the more it leaned right. The map is interactive — hover over a constituency to see its exact left-wing vote share, and use the radio button group to switch between election years and observe how political preferences have changed over time.
+    <strong>Map 2:</strong> Left-wing vote shares across Copenhagen constituencies from 2005 to 2022. The map shows the percentage of votes received by left-wing parties in each constituency, with colors ranging from blue (indicating stronger right-wing support) to red (indicating stronger left-wing support). The redder the district, the stronger its tilt to the left; the bluer, the more it leaned to the right. The map is interactive — hover over a constituency to see its exact left-wing vote share, and use the radio button group to switch between election years and observe how political preferences have changed over time.
   </figcaption>
 </figure>
 
-<p>Starting in 2005, Copenhagen’s political identity was already leaning left - but still relatively moderate. There were, however, some noticeable exceptions. The <em>Tårnby</em> constituency stood out with only 45% of votes going to left-wing parties, placing it in right-wing territory. Meanwhile, districts like <em>Slots</em> and <em>Falkoner</em> hovered near the center with 53% and 54% left-wing support, respectively. On the other end of the spectrum, <em>Nørrebro</em> and <em>Vesterbro</em> stood as strongholds of the left, each boasting 72% of the vote for left-wing parties.</p>
+<p>Starting in <strong>2005</strong>, Copenhagen’s political identity was already leaning left - but still relatively moderate. There were, however, some noticeable exceptions. The <em>Tårnby</em> constituency stood out with only 45% of votes going to left-wing parties, placing it in right-wing territory. Meanwhile, districts like <em>Slots</em> and <em>Falkoner</em> hovered near the center with 53% and 54% left-wing support, respectively. On the other end of the spectrum, <em>Nørrebro</em> and <em>Vesterbro</em> stood as strongholds of the left bloc, each holding 72% of the vote for left-wing parties.</p>
 
-<p>By 2007, not much had changed. The city’s political map held steady, and the national government remained right-wing as in 2005. But things started taking a turn in 2011.</p>
+<p>By <strong>2007</strong>, not much had changed. The city’s political map held steady, and the national government remained right-wing as in 2005. But things started taking a turn in 2011.</p>
 
-<p>In the 2011 election, left-wing parties won nationally, bringing Denmark its first female Prime Minister, Helle Thorning-Schmidt (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2011">danmarkshistorien.dk/Folketingsvalget2011</a></em>). This political shift was echoed in Copenhagen’s core. <em>Nørrebro</em> saw its left-wing support rise to 79%, with <em>Vesterbro</em> close behind at 74%. <em>Bispebjerg</em> increased to 70%, up from 65% in 2007. Even <em>Falkoner</em> and <em>Slots</em> moved leftward to 59% and 54%. Yet <em>Tårnby</em> remained the lone holdout, still tilting right with just 47% support for the left.</p>
+<p>In the <strong>2011</strong> election, left-wing parties won nationally, bringing Denmark its first female Prime Minister, Helle Thorning-Schmidt (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2011">danmarkshistorien.dk/Folketingsvalget2011</a></em>). This political shift was echoed in Copenhagen’s core. <em>Nørrebro</em> saw its left-wing support rise to 79%, with <em>Vesterbro</em> close behind at 74%. <em>Bispebjerg</em> increased to 70% from 65% in 2007. Even <em>Falkoner</em> and <em>Slots</em> moved leftward to 59% and 54%. Yet <em>Tårnby</em> remained the lone holdout, still tilting right with just 47% support for the left.</p>
 
-<p>The left-wing trend continued in 2015, though nationally, the tide turned again, with a right-wing Parliament. Still, Copenhagen kept drifting left. <em>Nørrebro</em> hit 81% in left-wing support — its highest yet — while <em>Vesterbro</em> remained steady at 74%.</p>
+<p>The left-wing trend continued in <strong>2015</strong>, though nationally, the tide turned again, with a right-wing Parliament. Still, Copenhagen kept drifting left. <em>Nørrebro</em> hit 81% in left-wing support — its highest yet — while <em>Vesterbro</em> remained steady at 74%.</p>
 
-<p>In 2019, the city completed its leftward journey. <em>Tårnby</em>, long the only right-leaning district in the capital, shifted to the left — making every Copenhagen constituency part of the left-wing bloc. This shift can be largely attributed to a new dominant topic in the election: <em>climate change</em>, which made left-wing parties more appealing to voters (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2019">danmarkshistorien.dk/Folketingsvalget2019</a></em>). Right-wing parties struggled to respond to this shift. In fact, the former leader of <em>Dansk Folkeparti</em>, Pia Kjærsgaard, famously mocked the climate movement by calling the left-wing activists <em>klimatosser</em> — roughly translated to <em>climate nuts</em> in English. This caused massive criticism and outrage, and she later had to apologize for her statements (<em>Source: <a href="https://da.wikipedia.org/wiki/Klimatosse">da.wikipedia.org/wiki/Klimatosse</a></em>). The term <em>klimatosse</em> became a symbol of the right-wing’s struggle to connect with the climate movement.</p>
+<p>TO DO: 
+In <strong>2019</strong>, the city completed its leftward journey. <em>Tårnby</em>, long the only right-leaning district in the capital, shifted to the left — making every Copenhagen constituency part of the left-wing bloc. This shift could be affected by a new central topic in the election: <em>climate change</em>, which made left-wing parties more appealing to climate concerned voters (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2019">danmarkshistorien.dk/Folketingsvalget2019</a></em>). Right-wing parties struggled to respond to this shift. In fact, the former leader of <em>Dansk Folkeparti</em>, Pia Kjærsgaard, famously mocked the climate movement by calling the left-wing activists <em>klimatosser</em> — roughly translated to <em>climate nuts</em> in English. This caused massive criticism and outrage, and she later had to apologize for her statements (<em>Source: <a href="https://da.wikipedia.org/wiki/Klimatosse">da.wikipedia.org/wiki/Klimatosse</a></em>). The term <em>klimatosse</em> became a symbol of the right-wing’s struggle to connect with the climate movement.</p>
 
+<p>TODO Try aligning with the text block.</p>
 <div style="text-align: center;">
-  <img src="assets/climatenuts.png" alt="Climate Nuts" style="width: 75%; height: auto; display: block; margin: auto;" />
+  <img src="assets/climatenuts.png" alt="Climate Nuts" style="width: 55%; height: auto; display: block; margin: auto;" />
   <p style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
     Source: <a href="https://www.facebook.com/profile.php?id=100064848514652" target="_blank" rel="noopener noreferrer">
       Klimatosser (Facebook)
@@ -326,7 +328,13 @@
 
 <p>Then came 2022 - a more nuanced election year. While all constituencies remained left-leaning, the deep red of 2019 began to fade slightly, especially in central neighborhoods. The reason? A push toward the political middle. The newly formed Moderaterne entered Parliament for the first time and joined a historic coalition government alongside Socialdemokratiet and Venstre. The idea of a broad, centrist SVM government captured attention - and it is shown on the map, with central districts like <em>Indre By</em> and <em>Østerbro</em> becoming more balaned between left and right.</p>
 
-<p>From 2005 to 2022, Copenhagen has moved decisively to the left. While the urban core — <em>Nørrebro</em>, <em>Vesterbro</em>, and <em>Bispebjerg</em> — consistently shows strong left-wing dominance, other neighborhoods like <em>Tårnby</em>, <em>Falkoner</em>, and <em>Slots</em> have followed a more balanced path, often hovering between 45% and 63% support for the left. This raises an important question: what drives these differences? Is it the parties reshaping the political landscape and influencing people to shift their votes? Or is it the population itself — with different districts home to different kinds of people, whose backgrounds and lifestyles shape their political preferences? Or perhaps it’s a combination of both? In the next section, we explore how each party performs across Copenhagen’s districts — and later, in the <a href="/demographics">Demographics</a> section, we turn our attention to the people themselves: who lives where, and how might that shape the political map?</p>
+<p>TODO: source: danmarkshistorien.</p>
+
+<p>From 2005 to 2022, Copenhagen has moved decisively to the left. While <em>Nørrebro</em>, <em>Vesterbro</em>, and <em>Bispebjerg</em> consistently shows strong left-wing dominance, other neighborhoods like <em>Tårnby</em>, <em>Falkoner</em>, and <em>Slots</em> have followed a more balanced path, often hovering between 45% and 63% support for the left. This raises an important question: what drives these differences? Are the parties reshaping their political agenda and thereby influencing people to shift their votes? Or is it the population itself — with different districts’ home to different kinds of people, whose backgrounds and lifestyles shape their political preferences? Or perhaps it is a combination of both?</p>
+
+<p>TODO: reformulate question “or is it the population itself” is it the same distribution of people who lives there continousely over time.</p>
+
+<p>In the next section, we explore how each party harvest their votes across Copenhagen’s districts — and later, in the <a href="/demographics">Sociodemographics</a> section, we turn our attention to the people themselves: who lives where, and how might that shape the political map?</p>
 
 <h2 id="winners-losers-and-loyalists-party-shifts-across-copenhagen"><a id="elections"></a>Winners, Losers, and Loyalists: Party Shifts Across Copenhagen</h2>
 
@@ -337,9 +345,7 @@
 🎵 <em>To see where loyalties reside</em></p>
 </blockquote>
 
-<p>We explored the share of left-wing and right-wing voters in Copenhagen over the years. Now, let’s take a closer look at individual parties and their performance across the city’s constituencies. To do so, we focus on the most popular parties, this of course changes over time and over constituencies and to have a fair comparison, we will select the top 5 parties in each election year across all constituencies. The set of parties in the top 5 is different for each election year per constituency will be classified as the most popular parties in Copenhagen. In total, that gave us 10 parties to focus on. The figure below shows a interactive barplot of the top 10 parties in Copenhagen over the years. In the dropdown menu, you can select the constituency you want to focus on. In the legend you can disselect some of the parties and you can also choose to zoom in on a specific time period.</p>
-
-<p>We’ve explored the share of left-wing and right-wing voters in Copenhagen over the years. Now, let’s take a closer look at individual parties and how they’ve performed across the city’s constituencies.</p>
+<p>We have explored the share of left-wing and right-wing voters in Copenhagen over the years. Now, let’s take a closer look at individual parties and how they have performed across the city’s constituencies.</p>
 
 <p>We focus on the most popular parties — though these naturally vary over time and across constituencies. To ensure fair comparison, for each election year we identify the top five parties based on vote share across all constituencies. Altogether, this gives us a total of ten key parties to analyze.</p>
 
@@ -349,23 +355,19 @@
         <iframe src="assets/party_vote_share_const_dropdown.html" title="Interactive Bar Chart of Party Vote Shares" style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" height="475">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 3:</strong> Party vote shares by constituency from 2005 to 2022. This interactive chart allows you to explore how each party has performed over time across different districts in Copenhagen. Use the dropdown menu to switch between constituencies. You can also toggle parties on and off in the legend or zoom in on specific election years to examine trends more closely.
+        <strong>Figure 3:</strong> Party vote shares by constituency from 2005 to 2022. This interactive chart allows you to explore how each party has performed over time across different districts in Copenhagen. Use the dropdown menu to switch between constituencies. You can also toggle parties on and off in the legend or mark in on specific election years to examine trends more closely.
         </figcaption>
 </figure>
+<p>TODO: jassen, til figure find ud af at skriv at man kan markere så den zoomer ind. idiot proof.</p>
 
-<p>Starting in <em>Indre By</em>, we see that <em>Radikale Venstre</em> (B) has often been one of the most popular parties — leading every other election year. <em>Socialdemokratiet</em> (A), in contrast, only emerged as the leading party once, in 2015. Since 2011, <em>Enhedslisten</em> (Ø) has steadily gained support here, eventually becoming the most popular party in 2022. Interestingly, <em>Venstre</em> (V) also performed strongly in <em>Indre By</em>, securing a top-two position in both 2005 and 2019. The 2022 election in this district was particularly fragmented, with several parties receiving similar vote shares — reflecting the broader rise of centrist influence during that year.</p>
-
-<p>Moving to <em>Østerbro</em>, we observe a similar pattern to <em>Indre By</em>, but with <em>Socialdemokratiet</em> (A) being more popular. Unlike <em>Indre By</em>, where the 2022 race was closely contested, <em>Østerbro</em> had a clear winner: <em>Socialdemokratiet</em> emerged as the district’s most popular party.</p>
+<p>TO DO: More story telling.
+Starting in <em>Indre By</em>, we see that <em>Radikale Venstre</em> (B) has often been one of the most popular parties — leading every other election year. <em>Socialdemokratiet</em> (A), in contrast, only emerged as the leading party once, in 2015. Since 2011, <em>Enhedslisten</em> (Ø) has steadily gained support here, eventually becoming the most popular party in 2022. Interestingly, <em>Venstre</em> (V) also performed strongly in <em>Indre By</em>, securing a top-two position in both 2005 and 2019. The 2022 election in this district was particularly fragmented, with several parties receiving similar vote shares — reflecting the broader rise of centrist influence during that year. Moving to <em>Østerbro</em>, we observe a similar pattern to <em>Indre By</em>, but with <em>Socialdemokratiet</em> (A) being more popular. Unlike <em>Indre By</em>, where the 2022 race was closely contested, <em>Østerbro</em> had a clear winner: <em>Socialdemokratiet</em> emerged as the district’s most popular party.</p>
 
 <p>In <em>Vesterbro</em>, the story changes. Since 2011, <em>Enhedslisten</em> (Ø) has dominated the district, with <em>Alternativet</em> (Å) and <em>Radikale Venstre</em> (B) also performing well. This trend continues in <em>Nørrebro</em>, where <em>Enhedslisten</em> is even stronger — achieving 28.7% of the vote in 2019. <em>Socialdemokratiet</em>, by contrast, has never won <em>Nørrebro</em>, while they win in many other districts in Copenhagen.</p>
 
-<p>In <em>Bispebjerg</em>, we see a more dynamic evolution. <em>Socialdemokratiet</em> was clearly dominant in 2005 and 2007, but from 2011 onward, <em>Enhedslisten</em> began to rise. Today, the district appears evenly split between the two parties, highlighting a political tug-of-war between traditional center-left and more progressive voters.</p>
+<p>In <em>Bispebjerg</em>, we see a more dynamic evolution. <em>Socialdemokratiet</em> was clearly dominant in 2005 and 2007, but from 2011 onward, <em>Enhedslisten</em> began to rise. In 2022, the district appears evenly split between the two parties, highlighting a political tug-of-war between traditional center-left and more progressive voters.</p>
 
-<p>In the suburban districts — <em>Brønshøj</em>, <em>Valby</em>, <em>Sundbyvester</em>, and <em>Sundbyøster</em> — <em>Socialdemokratiet</em> (A) maintains a stronghold. However, another notable trend emerges: the rise (and fall) of <em>Dansk Folkeparti</em> (O). In 2015, the party received around 14% of the vote in these areas, riding a national wave of focus on asylum and immigration policy. Their anti-immigration stance resonated with many voters. But their popularity sharply declined in the following years. By 2022, they were on the brink of losing parliamentary representation altogether.</p>
-
-<p>This sharp decline wasn’t only due to diminished public concern over immigration, but rather because other parties adopted more restrictive immigration policies themselves as <em>Socialdemokratiet</em> (A). Additionally, new far - right parties emerged — <em>Nye Borgerlige</em> in 2015 and <em>Stram Kurs</em> in 2017 — offering even harder-line alternatives. This fractured the right-wing vote and undercut <em>Dansk Folkeparti</em>’s position in the political landscape.</p>
-
-<p><em>Tårnby</em> is a clear example of this shift. In 2015, <em>Dansk Folkeparti</em> nearly topped the vote here with 27%, but by 2019, their support had dropped to just 11%. Much of that lost support appears to have shifted to <em>Venstre</em> (V), as well as to <em>Nye Borgerlige</em> (D), which received 2.9% of the vote, and <em>Stram Kurs</em> (P), which received 2.1% in <em>Tårnby</em> (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2015">danmarkshistorien.dk/Folketingsvalget2015</a></em>), (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2019">danmarkshistorien.dk/Folketingsvalget2011</a></em>).</p>
+<p>In the suburban districts — <em>Brønshøj</em>, <em>Valby</em>, <em>Sundbyvester</em>, and <em>Sundbyøster</em> — <em>Socialdemokratiet</em> (A) maintains a stronghold. However, another notable trend emerges: the rise (and fall) of <em>Dansk Folkeparti</em> (O). In 2015, the party received around 14% of the vote in these areas, riding a national wave of focus on asylum and immigration policy. Their anti-immigration stance resonated with many voters. But their popularity sharply declined in the following years. By 2022, they were on the brink of losing parliamentary representation altogether (<em>Source: TODO, hvor mange mandater de fik</em>). This sharp decline was not only due to diminished public concern over immigration, but rather because other parties adopted more restrictive immigration policies themselves as <em>Socialdemokratiet</em> (A). Additionally, new far - right parties emerged — <em>Nye Borgerlige</em> in 2015 and <em>Stram Kurs</em> in 2017 — offering even harder-line alternatives. This fractured the right-wing vote and undercut <em>Dansk Folkeparti</em>’s position in the political landscape. <em>Tårnby</em> is a clear example of this shift. In 2015, <em>Dansk Folkeparti</em> nearly topped the vote here with 27%, but by 2019, their support had dropped to just 11%. Much of that lost support appears to have shifted to <em>Venstre</em> (V), as well as to <em>Nye Borgerlige</em> (D), which received 2.9% of the vote, and <em>Stram Kurs</em> (P), which received 2.1% in <em>Tårnby</em> (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2015">danmarkshistorien.dk/Folketingsvalget2015</a></em>), (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2019">danmarkshistorien.dk/Folketingsvalget2011</a></em>).</p>
 
 <p>Finally, looking at <em>Slots</em> and <em>Falkoner</em>, we see yet another unique pattern. <em>Det Konservative Folkeparti</em> (C) performs particularly well in these districts, alongside <em>Radikale Venstre</em> (B), <em>Venstre</em> (V), and <em>Socialdemokratiet</em> (A). Here, the “green wave” seen in more central areas is far less prominent. Instead, these constituencies reflect a more balanced political environment — where centrist and center-right parties remain highly competitive, contributing to the overall balanced political landscape in these constituencies.</p>
 
@@ -379,6 +381,8 @@
   </figcaption>
 </figure>
 
+<p>TODO: explain how it is possible to be very close to the winning party in votes and that we need to see the other plot to compare.</p>
+
 <p>A quick walk through the years give a clear picture of Copenhagen’s evolving political landscape. While <em>Socialdemokratiet</em> (A) has often been the largest party overall, its dominance has been increasingly challenged. In recent years, <em>Enhedslisten</em> (Ø) has taken over many of the central districts, signaling a progressive shift in the city’s political heart.</p>
 
 <p>Some districts, like <em>Slots</em> and <em>Tårnby</em>, are more prone to right-wing parties, where parties like <em>Venstre</em> (V) have been the wining party in 2011. Meanwhile, central Copenhagen — including <em>Indre By</em> and <em>Østerbro</em> — seems to be more socially liberal occasionally leaned toward <em>Radikale Venstre</em> (B), reflecting a nuanced political identity in those neighborhoods.</p>
@@ -387,9 +391,11 @@
 
 <p>It is interesting to see how <em>Socialdemokratiet</em> managed to maintain a strong share of the vote in 2022, despite several scandals during the COVID-19 pandemic as the Mink and deleted messages. Most notably, Prime Minister Mette Frederiksen was pressured to call an early election after the <em>Mink Commission</em> released its report, leading <em>Radikale Venstre</em> to push the government to dissolve Parliament (<em>Source: <a href="https://danmarkshistorien.lex.dk/Folketingsvalget_2022">danmarkshistorien.dk/Folketingsvalget2022</a></em>).</p>
 
-<p>This outcome suggests that the party has a solid base of loyal voters in Copenhagen — voters who remained supportive despite the controversies. In fact, <em>Socialdemokratiet</em> continued to win in many of its traditional strongholds, including suburban districts like <em>Brønshøj</em>, <em>Valby</em>, <em>Sundbyvester</em>, and <em>Sundbyøster</em>, as well as in <em>Tårnby</em>, <em>Falkoner</em>, and <em>Slots</em>.</p>
+<p>TODO: Change wording “solid base” of voters. Ud fra data, måske socialdemokratiet has good voters here, we did not suspect that.</p>
 
-<p>The timing of the election may also have worked in the party’s favor. Europe was facing significant uncertainty due to the war in Ukraine and an escalating energy crisis. In this context, <em>Socialdemokratiet</em> positioned itself as a unifying force — a party that could lead through crisis — which may have resonated with voters (<em>Source: <a href="https://nyheder.tv2.dk/politik/2022-10-05-derfor-gaar-mette-frederiksen-til-valg-paa-en-regering-henover-midten">TV2 Nyheder</a></em>).</p>
+<p>This outcome suggests that the party has a solid base of loyal voters in Copenhagen — voters who remained supportive despite the controversies.</p>
+
+<p>In fact, <em>Socialdemokratiet</em> continued to win in many of its traditional strongholds, including suburban districts like <em>Brønshøj</em>, <em>Valby</em>, <em>Sundbyvester</em>, and <em>Sundbyøster</em>, as well as in <em>Tårnby</em>, <em>Falkoner</em>, and <em>Slots</em>. The timing of the election may also have worked in the party’s favor. Europe was facing significant uncertainty due to the war in Ukraine and an escalating energy crisis. In this context, <em>Socialdemokratiet</em> positioned itself as a unifying force — a party that could lead through crisis — which may have resonated with voters (<em>Source: <a href="https://nyheder.tv2.dk/politik/2022-10-05-derfor-gaar-mette-frederiksen-til-valg-paa-en-regering-henover-midten">TV2 Nyheder</a></em>).</p>
 
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
@@ -415,7 +421,6 @@
 
 </div>
 
-<p>varm op til næste afsnit! skriv om hvilke partier der har loyal   e vælgere og hvilke partier der har skiftende vælgere.</p>
 
   </div>
 

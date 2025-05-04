@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Demographics</title>
+  <title>Sociodemographics</title>
   <link rel="icon" href="../assets/compact_favicon.png" type="image/x-icon">
   <link rel="shortcut icon" href="./assets/compact_favicon.png" type="image/x-icon">
   <style>
@@ -23,8 +23,8 @@
     .hero::after {
       content: "";
       position: absolute;
-      top: 41%;
-      left: 22%;
+      top: 55%;
+      left: 70%;
       width: 40%;             /* Adjust size */
       height: 30%;            /* Adjust height */
       background-size: contain;
@@ -181,11 +181,11 @@
     /* Background image classes */
     .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
-    .background-image-election::after { background-image: url('/assets/politiker_front.png'); }
+    .background-image-election::after { background-image: url('/assets/politiker_front.png'); background-size: 50%; }
     .background-image-demographics::before { background-image: url('/assets/peps2.png'); background-size: 50%;}
     .background-image-studycase::before { background-image: url('/assets/peps_and_map.png'); background-size: 50%;}
     .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
-    .background-image-default::after { background-image: url('/assets/peps2.png'); }
+    /* .background-image-default::after { background-image: url('/assets/peps2.png'); } */
 
   </style>
 </head>
@@ -199,7 +199,7 @@
       <li><a href="/">HOME</a></li>
       <li><a href="/data">DATA</a></li>
       <li><a href="/elections">ELECTIONS</a></li>
-      <li><a href="/demographics">DEMOGRAPHICS</a></li>
+      <li><a href="/demographics">SOCIODEMOGRAPHICS</a></li>
       <li><a href="/studycase">FINAL INSIGHTS</a></li>
     </ul>
   </nav>
@@ -208,15 +208,15 @@
     <div class="hero-content container">
       <div class="hero-text">
         
-          <h1>Demographic Relations</h1>
-          <p>Exploring the Influence and Connection to the People in Copenhagen</p>
+          <h1>Sociodemographics</h1>
+          <p>Exploring the Demographics and Sociodemographic data to the People in Copenhagen</p>
         
       </div>
     </div>
   </div>
 
   <div class="content">
-    <h2 id="demographics"><a id="demographics"></a>Demographics</h2>
+    <h2 id="sociodemographics"><a id="Sociodemographics"></a>Sociodemographics</h2>
 
 <p>Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.</p>
 
@@ -231,7 +231,7 @@
 <p><strong>Insert plot: Raw count of residents over time</strong></p>
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
-        <iframe src="assets/age_distribution.html" title="Interactive Bar Chart of Age Distribution Trends for Constituencies" style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" height="550">
+        <iframe src="assets/age_stacked_line_plot.html" title="Interactive Bar Chart of Age Distribution Trends for Constituencies" style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
         <strong>Figure X:</strong> OBS AGE! 
@@ -248,6 +248,14 @@
 
 <p><strong>Insert plot: Education level (e.g., primary, vocational, higher) by year</strong></p>
 
+<figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
+        <iframe src="assets/education_stacked_line_plot.html" title="Interactive Bar Chart of Education Distribution Trends for Constituencies" style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" height="550">
+        </iframe>
+        <figcaption style="margin-top: 0.75rem; font-style: italic;">
+        <strong>Figure X:</strong> OBS AGE! 
+        </figcaption>
+</figure>
+
 <p>The proportion of immigrants and descendants of immigrants has grown steadily, especially in districts like Nørrebro and Bispebjerg.</p>
 
 <p>In parallel, educational attainment has increased across the city. Inner districts in particular have a high share of university-educated residents. This aligns with broader urban trends where education level correlates with support for progressive parties, especially on issues such as climate change, equality, and education policy. Nørrebro has a very high share of highly educated residents while Tårnby on the other hand has very few higher educated residents. This might also be a result of the older residents in Tårnby compared to Nørrebro.</p>
@@ -257,11 +265,8 @@
 <h2 id="socioeconomic-status-across-constituencies">Socioeconomic Status Across Constituencies</h2>
 
 <blockquote>
-  <p>🎵 <em>Is Nørrebro all red and bold?</em></p>
-</blockquote>
-
-<blockquote>
-  <p>🎵 <em>Does Frederiksberg stay rich and cold?</em></p>
+  <p>🎵 <em>Is Nørrebro all red and bold?</em><br />
+🎵 <em>Does Frederiksberg stay rich and cold?</em></p>
 </blockquote>
 
 <p>To understand economic well-being and its variation across the city, we begin by looking at the type of public support residents receive.</p>

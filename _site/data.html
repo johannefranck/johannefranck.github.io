@@ -23,8 +23,8 @@
     .hero::after {
       content: "";
       position: absolute;
-      top: 41%;
-      left: 22%;
+      top: 55%;
+      left: 70%;
       width: 40%;             /* Adjust size */
       height: 30%;            /* Adjust height */
       background-size: contain;
@@ -181,11 +181,11 @@
     /* Background image classes */
     .background-image-data::before { background-image: url('/assets/data_background.png'); }
     .background-image-election::before { background-image: url('/assets/cph_static_map.png'); }
-    .background-image-election::after { background-image: url('/assets/politiker_front.png'); }
+    .background-image-election::after { background-image: url('/assets/politiker_front.png'); background-size: 50%; }
     .background-image-demographics::before { background-image: url('/assets/peps2.png'); background-size: 50%;}
     .background-image-studycase::before { background-image: url('/assets/peps_and_map.png'); background-size: 50%;}
     .background-image-default::before { background-image: url('/assets/debate_illustration.png'); }
-    .background-image-default::after { background-image: url('/assets/peps2.png'); }
+    /* .background-image-default::after { background-image: url('/assets/peps2.png'); } */
 
   </style>
 </head>
@@ -199,7 +199,7 @@
       <li><a href="/">HOME</a></li>
       <li><a href="/data">DATA</a></li>
       <li><a href="/elections">ELECTIONS</a></li>
-      <li><a href="/demographics">DEMOGRAPHICS</a></li>
+      <li><a href="/demographics">SOCIODEMOGRAPHICS</a></li>
       <li><a href="/studycase">FINAL INSIGHTS</a></li>
     </ul>
   </nav>
@@ -218,15 +218,9 @@
   <div class="content">
     <h2 id="dataset"><a id="dataset"></a>Dataset</h2>
 
-<p>The foundation of this study is built on data from <a href="https://valgdatabase.dst.dk/data" target="_blank" style="color: #59B6E7; font-weight: bold;">Den Danske Valgdatabase</a>, powered by <strong>Danmarks Statistik</strong>. This comprehensive database contains election information from Denmark spanning back to 1979. The database includes data from a variety of election types:</p>
+<p>TODO: music text</p>
 
-<ul>
-  <li><strong>National parliamentary elections</strong> (<em>folketingsvalg</em>)</li>
-  <li><strong>European Parliament elections</strong> (<em>europaparlamentsvalg</em>)</li>
-  <li><strong>Referendums</strong> (<em>folkeafstemninger</em>)</li>
-  <li><strong>Municipal and regional elections</strong> (<em>kommunalvalg</em> and <em>regionsrådsvalg</em>)</li>
-  <li><strong>Parliamentary elections in Greenland and the Faroe Islands</strong></li>
-</ul>
+<p>The foundation of this study is built on data from <a href="https://valgdatabase.dst.dk/data" target="_blank" style="color: #59B6E7; font-weight: bold;">Den Danske Valgdatabase</a>, powered by <strong>Danmarks Statistik</strong>. This comprehensive database contains election information from Denmark spanning back to 1979. The database includes data from a variety of election types including <strong>National parliamentary elections</strong> (<em>folketingsvalg</em>).</p>
 
 <p>For this study, we focus on <strong>national elections</strong> within the <strong>Copenhagen constituency (Københavns Storkreds)</strong>, covering two decades and a total of six elections. This includes the elections held in the years:</p>
 
@@ -292,11 +286,15 @@ Danmarks Statistik conducts a new population inventory every five years, with th
 
 <p>Danmarks Statistik performs a <strong>population census every five years</strong>, with relevant years being:</p>
 
+<p>TODO: Change to orange number!</p>
+
 <ul>
   <li><strong>2004, 2009, 2014, 2019, and 2024</strong></li>
 </ul>
 
 <p>For the analysis, each election year is matched to the closest available population statistics:</p>
+
+<p>TODO: make table ordentlig width.</p>
 
 <div style="overflow-x: auto; margin: 14px 0;">
   <table style="width: 80%; margin: 0 auto; border-collapse: collapse; font-size: 1em; text-align: center; background-color: #f9f9f9; border: 1px solid #ddd;">
@@ -329,6 +327,8 @@ Danmarks Statistik conducts a new population inventory every five years, with th
 
 <p>The population data covers a wide range of characteristics, which we group into three main categories:</p>
 
+<p>TODO: Only two categories</p>
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 30px 0;">
   
   <div style="flex: 1 1 250px; background: #f9f9f9; padding: 20px; border: 1px solid #ddd; border-radius: 10px; text-align: center;">
@@ -359,6 +359,12 @@ Danmarks Statistik conducts a new population inventory every five years, with th
 <p>In total, the dataset consists of 45,984 entries across 46 variables, occupying 13.5 MB of space.</p>
 
 <h2 id="basic-statistics"><a id="basic-stat"></a>Basic Statistics</h2>
+
+<p>turnout vote</p>
+
+<p>population increase</p>
+
+<p>income over cph</p>
 
   </div>
 
