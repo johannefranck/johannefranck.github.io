@@ -80,6 +80,9 @@ In addition to voting data, we incorporated **sociodemographic data** extracted 
 
 As Danmarks Statistic match each election year to the closest available population statistics, the election years matches the following census years:
 
+<p style="margin-top: 0.5rem; font-style: italic; text-align: center;">
+  <strong>Table 1:</strong> Mapping of election years to the nearest available population census years, as provided by Danmarks Statistik. Each election year is matched with the most recent census data available at the time.
+</p>
 <div style="overflow-x: auto; margin: 16px 0;">
   <table style="width: 100%; margin: 0 auto; border-collapse: collapse; font-size: 1em; text-align: center; background-color: #f9f9f9; border: 1px solid #ddd;">
     <thead style="background-color: #59B6E7; color: white;">
@@ -159,6 +162,9 @@ When comparing individual constituencies to the overall average turnout in Copen
 
 Next, we examine the population count in Copenhagen over time. The table below shows the population in the Copenhagen constituency for the years 2004, 2009, 2014, and 2019. These numbers are based on census data from Danmarks Statistik, which is collected every five years. The population for each year is as follows:
 
+<p style="margin-top: 0.5rem; font-style: italic; text-align: center;">
+  <strong>Table 2:</strong> Population count in the Copenhagen constituency over time based on census data from Danmarks Statistik. 
+</p>
   <table style="width: 100%; margin: 0 auto; border-collapse: collapse; font-size: 1em; text-align: center; background-color: #f9f9f9; border: 1px solid #ddd;">
     <thead style="background-color: #59B6E7; color: white;">
     <tr>
@@ -186,6 +192,9 @@ Next, we examine the population count in Copenhagen over time. The table below s
   </tbody>
 </table>
 
+
+
+
 We observe a steady increase in Copenhagen's population over this period, with a total growth of 22.74% from 2004 to 2019. This population growth may have implications for voting behavior, as a larger and potentially more diverse population can lead to broader variation in political preferences. It is particularly interesting to explore where in the city this growth is occurring — and how it may relate to changing voting patterns across constituencies.
 
 ### Income per Household
@@ -205,5 +214,7 @@ Finally, we examine household income levels in Copenhagen over time. This provid
 It is striking to see how average household income in Copenhagen has risen significantly over the past decade. In 2009, only 12.5% of households had an annual income of 750,000 DKK or more. By 2019, that figure had more than doubled to 27.8%, making it the largest income group — with an 8.6 percentage point lead over the second-largest group (500,000–749,999 DKK). At the same time, the share of households earning less than 149,999 DKK dropped from 19.5% in 2009 to just 6.6% in 2019, reflecting a clear shift toward a more affluent urban population.
 
 The broader socioeconomic shift is also evident in long-term changes among families. In the 1990s, one in three children in Copenhagen came from working-class households. Today, that number has been cut in half, while the proportion of children from upper-class and upper-middle-class families has tripled. As one report puts it: *“Copenhagen is becoming less of a city that all families can afford to live in — and more of a city for the well-off.”* (*Source: [AE Rådet, 2021](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*)
+
+
 
 

@@ -25,7 +25,7 @@ To find out, we take a closer look at the distribution of votes for the left-win
 
 Before we can analyze voting patterns, we need to draw the political boundaries. The table below shows how we have grouped Danish parties into left- and right-wing blocs.
 
-<p style="margin-bottom: 0.5rem; text-align: center;"><strong>Table 1:</strong> Classification of appearing Danish political parties over the last 20 years into left-wing and right-wing.</p>
+<p style="margin-bottom: 0.5rem; text-align: center;"><strong>Table 3:</strong> Classification of appearing Danish political parties over the last 20 years into left-wing and right-wing.</p>
 <table style="width:100%; border-collapse: collapse; margin-bottom: 2rem; margin-left: auto; margin-right: auto;">
   <thead>
     <tr>
