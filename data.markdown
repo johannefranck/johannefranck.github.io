@@ -65,6 +65,20 @@ We specifically filtered the data to the following constituencies within **Købe
 
 </div>
 
+While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 total mandates, 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, they are distributed proportionally based on the national vote share of each party. A party must receive at least 2% of the national vote to qualify for representation. The more votes a party receives, the more mandates it is allocated (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
+
+While some constituencies may appear geographically larger than others, this does not reflect population size. For example, *Indre By* (central Copenhagen) looks smaller on the map than *Tårnby*, but it has a significantly larger population.
+
+Regarding the Danish electoral system: the **179 seats (mandates)** in the Danish Parliament (*Folketinget*) are distributed as follows:
+
+* **175 mandates from Denmark**
+* **2 mandates from Greenland**
+* **2 mandates from the Faroe Islands**
+
+Of the 175 mandates in Denmark:
+* **135 are constituency mandates**, allocated directly in the 10 multi-member constituencies (like those in Copenhagen (Københavns Storkreds)) based on vote counts in each multi-member constituencies, meaning all 12 constituencies in Copenhagen are part of the same multi-member constituency. 
+* **40 are compensatory mandates**, distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold.
+
 ### Supplementary Data: Population Insights
 
 In addition to voting data, we incorporated **sociodemographic data** extracted from **Danmarks Statistik**, allowing deeper insights into voting patterns in context of  population characteristics. Danmarks Statistik performs a **population census every five years**, with relevant years being:
