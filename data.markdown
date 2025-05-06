@@ -67,9 +67,12 @@ We specifically filtered the data to the following constituencies within **Købe
 
 While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 total mandates, 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, they are distributed proportionally based on the national vote share of each party. A party must receive at least 2% of the national vote to qualify for representation. The more votes a party receives, the more mandates it is allocated (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
 
+TODO: repetiiton:
 While some constituencies may appear geographically larger than others, this does not reflect population size. For example, *Indre By* (central Copenhagen) looks smaller on the map than *Tårnby*, but it has a significantly larger population.
 
 Regarding the Danish electoral system: the **179 seats (mandates)** in the Danish Parliament (*Folketinget*) are distributed as follows:
+
+Hence all the constituencies of copenhagen together contribute to choosing the same pool of mandates from Copenhagen Storkreds (based on residents in Copenhagen).
 
 * **175 mandates from Denmark**
 * **2 mandates from Greenland**
@@ -91,6 +94,8 @@ In addition to voting data, we incorporated **sociodemographic data** extracted 
     <span>2019</span>
   </span>
 </div>
+TODO: fjern sort box
+
 
 As Danmarks Statistic match each election year to the closest available population statistics, the election years matches the following census years:
 
@@ -189,11 +194,11 @@ Next, we examine the population count in Copenhagen over time. The table below s
   <tbody>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">2004</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">646,9938</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">646,994</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">2009</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">678,8730</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">678,873</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd;">2014</td>
@@ -212,7 +217,7 @@ Next, we examine the population count in Copenhagen over time. The table below s
 We observe a steady increase in Copenhagen's population over this period, with a total growth of 22.74% from 2004 to 2019. This population growth may have implications for voting behavior, as a larger and potentially more diverse population can lead to broader variation in political preferences. It is particularly interesting to explore where in the city this growth is occurring — and how it may relate to changing voting patterns across constituencies.
 
 ### Income per Household
-Finally, we examine household income levels in Copenhagen over time. This provides insight not only into the socioeconomic status of the residents but may also indicate the types of people who are moving to the city.
+Finally, we examine household income levels in Copenhagen over time. This provides insight not only into the socioeconomic status of the residents but may also indicate the types of people who are moving to the city and staying in the city (*Source: [AE Rådet, 2021](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*).
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
   <iframe src="assets/income_dist_over_time.html" 
