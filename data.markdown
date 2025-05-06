@@ -65,22 +65,8 @@ We specifically filtered the data to the following constituencies within **Købe
 
 </div>
 
-While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 total mandates, 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, they are distributed proportionally based on the national vote share of each party. A party must receive at least 2% of the national vote to qualify for representation. The more votes a party receives, the more mandates it is allocated (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
+While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 seats (mandates), 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, 135 of the mandates are allocated directly in the 10 multi-member constituencies (like Københavns Storkreds) based on vote counts in each multi-member constituencies, hence all the constituencies of Copenhagen together contribute to the same pool of mandates from Copenhagen Storkreds. The last 40 mandates are distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
 
-TODO: repetiiton:
-While some constituencies may appear geographically larger than others, this does not reflect population size. For example, *Indre By* (central Copenhagen) looks smaller on the map than *Tårnby*, but it has a significantly larger population.
-
-Regarding the Danish electoral system: the **179 seats (mandates)** in the Danish Parliament (*Folketinget*) are distributed as follows:
-
-Hence all the constituencies of copenhagen together contribute to choosing the same pool of mandates from Copenhagen Storkreds (based on residents in Copenhagen).
-
-* **175 mandates from Denmark**
-* **2 mandates from Greenland**
-* **2 mandates from the Faroe Islands**
-
-Of the 175 mandates in Denmark:
-* **135 are constituency mandates**, allocated directly in the 10 multi-member constituencies (like those in Copenhagen (Københavns Storkreds)) based on vote counts in each multi-member constituencies, meaning all 12 constituencies in Copenhagen are part of the same multi-member constituency. 
-* **40 are compensatory mandates**, distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold.
 
 ### Supplementary Data: Population Insights
 
@@ -94,8 +80,6 @@ In addition to voting data, we incorporated **sociodemographic data** extracted 
     <span>2019</span>
   </span>
 </div>
-TODO: fjern sort box
-
 
 As Danmarks Statistic match each election year to the closest available population statistics, the election years matches the following census years:
 
@@ -237,3 +221,4 @@ The broader socioeconomic shift is also evident in long-term changes among famil
 
 
 
+# TO DO : Link to next page
