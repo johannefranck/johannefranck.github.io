@@ -13,7 +13,7 @@ To find out, we dive into two decades of election data, tracking how the city’
 
 From climate debates to coalition politics, from stable party loyalties to shifting district dynamics, this exploration reveals a city in constant political transformation — shaped by issues, neighborhoods, and time.
 
-## <a id="elections"></a> How Copenhagen Votes: Mapping the Left and Right Over Time
+## How Copenhagen Votes: Mapping the Left and Right Over Time
 
 > 🎵 *In Copenhagen’s twelve domains*\
 > 🎵 *Did left-wing rise? Did right-wing wane?*
@@ -141,7 +141,7 @@ From 2005 to 2022, Copenhagen has shifted decisively to the left. While *Nørreb
 
 In the next section, we explore how each party harvest their votes across Copenhagen’s districts — and later, in the [Sociodemographics](/demographics) page, we turn our attention to the people themselves: who lives where, and how might that shape the political map?
 
-## <a id="elections"></a>Winners, Losers, and Loyalists: Party Shifts Across Copenhagen
+## Winners, Losers, and Loyalists: Party Shifts Across Copenhagen
 
 > 🎵 *With parties shifting left and right*\
 > 🎵 *Do neighborhoods still match the hype?*\
@@ -222,4 +222,4 @@ With all the figures and maps we have seen so far, there are many interesting tr
 </div>
 
 
-# TO DO : Link to next page
+### Now, please continue to the [next page](../demographics#Sociodemographics), SOCIODEMOGRAPHICS, where we explore the sociodemographic dynamics.

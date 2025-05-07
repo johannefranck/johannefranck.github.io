@@ -221,4 +221,4 @@ The broader socioeconomic shift is also evident in long-term changes among famil
 
 
 
-# TO DO : Link to next page
+### Now, please continue to the [next page](../elections#elections), ELECTIONS, where we dive further into the elections data.
