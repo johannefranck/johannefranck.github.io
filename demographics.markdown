@@ -28,14 +28,15 @@ The city of Copenhagen has seen continuous population growth over the last 20 ye
 **Insert plot: Raw count of residents over time**
 
 
+
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
         <iframe src="assets/age_stacked_line_plot.html" 
                 title="Interactive Bar Chart of Age Distribution Trends for Constituencies"
-                style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" 
+                style="display: block; margin: auto; border: none; width: 110%; max-width: 920px;" 
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure X:</strong> OBS AGE! 
+        <strong>Figure xx: Title</strong> Bla bla
         </figcaption>
 </figure>
 
@@ -55,11 +56,11 @@ Copenhagen’s population has changed notably over the past two decades, both in
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
         <iframe src="assets/education_stacked_line_plot.html" 
                 title="Interactive Bar Chart of Education Distribution Trends for Constituencies"
-                style="display: block; margin: auto; border: none; width: 100%; max-width: 900px;" 
+                style="display: block; margin: auto; border: none; width: 110%; max-width: 920px;" 
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure X:</strong> OBS AGE! 
+        <strong>Figure X:</strong> OBS add text! 
         </figcaption>
 </figure>
 
