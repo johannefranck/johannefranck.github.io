@@ -11,7 +11,8 @@ subtitle: Analysis of Election Data in Copenhagen
 
 We write a very good motivation. Clear and straight to the point. 
 
-
+* Jupyter nb viewer for our [Explainer Notebook](https://nbviewer.org/github/johannefranck/SocialData2025_FinalProject/blob/main/Explainer_notebook.ipynb)
+* [Github](https://github.com/johannefranck/SocialData2025_FinalProject/tree/main) repository
 
 ### Now, please continue to the [next page](../data#dataset), DATA, where we get started on our data!
 
