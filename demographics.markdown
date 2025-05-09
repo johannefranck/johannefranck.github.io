@@ -5,7 +5,7 @@
 layout: custom_home
 title: Sociodemographics 
 hero_title: Sociodemographics
-hero_subtitle: Exploring the Demographics and Sociodemographic data to the People in Copenhagen
+hero_subtitle: Exploring the Demographics and Sociodemographic data of the People in Copenhagen
 ---
 
 ## <a id="Sociodemographics"></a>Sociodemographics
@@ -133,8 +133,8 @@ Another notable trend is the sharp decline in households earning 100,000–149,9
 
 While rising incomes may signal economic growth, it could also indicate growing economic polarization. This could particularly affect districts with more uniform income distributions, such as *Nørrebro* and *Bispebjerg*, where economic diversity may foster a another spectrum of political beliefs and values as we saw in the party vote shares and winning parties in the election analysis. 
 As the city becomes more expensive to live in, some residents may also be priced out, leading to a wealthier overall population which needs to be noticed and planned for in the future (*Source: [Via Ritzau](https://via.ritzau.dk/pressemeddelelse/13726689/ny-undersogelse-derfor-flytter-tusindvis-hvert-ar-til-og-fra-kobenhavn?lang=da)*). 
-However, this polarization trend may also contribute to higher voter turnout in some areas. For instance, Falkoner — with 56.6% of households earning more than 500,000 DKK annually — also has the highest voter turnout (Figure 1, DATA). This could be because income disparity within the district mobilizes those earning less to make their voices heard, as suggested by research on income inequality and voter mobilization (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). 
-On the other hand, Tårnby presents a different pattern. Despite having a similar income distribution to Falkoner, with more than a third of households earning above 750,000 DKK annually, it does not exhibit the same high voter turnout. This could be linked to the political dynamics observed in the election analysis (Figure 3, ELECTIONS), where *Socialdemokratiet*, *Venstre*, and, up until 2019, *Dansk Folkeparti* have maintained a strong presence in *Tårnby*, contrasting with the more balanced political landscape in *Falkoner*. 
+However, this polarization trend may also contribute to higher voter turnout in some areas. For instance, *Falkoner* — with 56.6% of households earning more than 500,000 DKK annually — also has the highest voter turnout (Figure 1, DATA). This could be because income disparity within the district mobilizes those earning less to make their voices heard, as suggested by research on income inequality and voter mobilization (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). 
+On the other hand, *Tårnby* presents a different pattern. Despite having a similar income distribution to *Falkoner*, with more than a third of households earning above 750,000 DKK annually, it does not exhibit the same high voter turnout. This could be linked to the political dynamics observed in the election analysis (Figure 3, ELECTIONS), where *Socialdemokratiet*, *Venstre*, and, up until 2019, *Dansk Folkeparti* have maintained a strong presence in *Tårnby*, contrasting with the more balanced political landscape in *Falkoner*. 
 
 Overall, while the income distributions across districts are evolving, with rising affluence and a shrinking share of lower-income households, the relationship between income and political preferences remains complex. Similar income profiles do not necessarily translate into similar voting patterns, as demonstrated by the contrasting political landscapes in districts like *Falkoner* and *Tårnby*, where comparable income levels are associated with distinctly different electoral outcomes. 
 

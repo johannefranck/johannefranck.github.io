@@ -30,7 +30,7 @@ For a fun and short introduction to the project, check out our video from Projec
             height="520">
     </iframe>
     <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 1:</strong> Introduction video for the project, providing an overview of the key objectives, data sources, and introductory analysis approach. Song: made with Suno (AI). Images and drawings from various sources.
+        <strong>Figure 1:</strong> Introduction video for the project, providing an overview of the key objectives, data sources, and introductory analysis approach. Song: text written by us, while the song is made using Suno (AI). Images and drawings from various sources.
     </figcaption>
 </figure>
 
