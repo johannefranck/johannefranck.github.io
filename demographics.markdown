@@ -10,6 +10,8 @@ hero_subtitle: Exploring the Demographics and Sociodemographic data to the Peopl
 
 ## <a id="Sociodemographics"></a>Sociodemographics
 
+>🎵 *Is Nørrebro all red and bold?*\
+>🎵 *Does Frederiksberg stay rich and cold?*  
 
 Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.
 
@@ -73,15 +75,19 @@ These developments help explain shifts in electoral patterns across Copenhagen a
 
 
 
-## Socioeconomic Status Across Constituencies
+## Socioeconomic Divides - From Paychecks to Pensions
 
->🎵 *Is Nørrebro all red and bold?*\
->🎵 *Does Frederiksberg stay rich and cold?*  
+This section delves into the economic makeup of Copenhagen’s constituencies, examining income support, household income, and housing conditions. We aim to explore whether economic disparities align with voting preferences and whether the persistent stereotypes about neighborhoods hold true.
 
-### Income Support
+Our data spans three reference years (2009, 2014, 2019), capturing a decade marked by financial crises, migration waves, and evolving policy priorities. This temporal scope allows us to observe how economic conditions have shifted over time. By analyzing these socioeconomic factors, we can explore how economic shifts may have influenced public opinion and political priorities across the city. Existing narratives suggest that income can significantly shape political preferences (*Source: [Kristeligt Dagblad](https://www.kristeligt-dagblad.dk/danmark/betyder-indkomsten-noget-stemmeafgivningen)*). Especially if there is a large income variation in the population, as higher income inequality has been found to both mobilize low-income voters and demobilize high-income voters, creating complex dynamics within electorates (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). Through this analysis, we aim to discern whether the socioeconomic data in Copenhagen’s constituencies reflects such patterns — and whether emerging trends reveal untold stories about the city’s evolving political and economic landscape.
 
-To understand economic well-being and its variation across the city, we begin by examining the types of public support residents receive. The interactive plot below visualizes the distribution of various support types across districts, providing insights into how different areas rely on state pensions, unemployment benefits, and other social support mechanisms.
 
+
+### Income Support Patterns
+
+Income support systems provide a lens through which we can better understand the socioeconomic composition of Copenhagen’s constituencies. By examining the distribution of various support types — such as unemployment benefits, state pensions, and social assistance — we can gain insight into the structural economic differences that demographic measures alone might overlook.
+
+In the plot below, we present the average distribution of support types across three reference years (2009, 2014, 2019). Despite an initial expectation about very fluctuating ratios of support types over the years, the initial analysis revealed a relatively stable support composition within all districts (the trends over the years is available in the explainer notebook but is omitted here for conciseness). To highlight differences between districts more clearly, the data is averaged over the years, steering the focus toward inter-district variability rather than temporal changes. This stability is observed even as approximately 10,000 residents moved to the respective districts within the time period as we saw in the explorative analysis. This suggests that new residents tend to reflect existing socioeconomic patterns rather than alter them (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*).
 
 
 
@@ -92,16 +98,20 @@ To understand economic well-being and its variation across the city, we begin by
                 height="600">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 6:</strong> Interactive plot of the income support type distribution by district. The proportions of residents receiving retirement, unemployment, or employment support vary significantly across the districts. Click the different support types to compare the different districts and their share of residents on that receive the various support types. Please note that the remaining share of the population receive no income support from the Danish government.
+        <strong>Figure 6: Interactive layered barplot of the income support type distribution by district, averaged over three reference years (2009, 2014, 2019)</strong>. The plot highlights the share of residents receiving different types of public support, emphasizing differences between districts. Click the different support types to compare the districts further. The bars represent the share of the population (in percentages) within each district, including the "No Received Benefits" category which is included to normalize other support types and includes both children and those not receiving public support. This also indicates for all districts that the working force is the largest for all districts (approximately 60%).
         </figcaption>
 </figure>
 
-In Tårnby and Brønshøj, for instance, the prevalence of state pensions is remarkably higher, reflecting the older age demographics in these areas. In contrast, more urbanized districts like Nørrebro and Vesterbro show a higher dependency on unemployment benefits, aligning with a younger, more transient population that is potentially more susceptible to economic fluctuations. These patterns underscore the economic diversity across the city and suggest potential links between public support reliance and local political dynamics.
+The interactive plot reveals distinct differences in income support distribution across Copenhagen’s districts for the averaged period for the elections. The most notable difference between districts is the relative high share of residents receiving state pension in *Tårnby*, *Slots* and *Falkoner*. This aligns with the previously observed age distribution in these areas, where a higher proportion of older residents is concentrated. *Tårnby* also stands out with a relatively higher share of residents receiving early retirement benefits, further emphasizing its older demographic profile. In contrast, other areas seem to have a much other composition of residents as there are averagely less than 10% on the different pension supports in *Nørrebro*, *Vesterbro* and *Bispebjerg*. For these districts, unemployment benefits represent the highest relative share of support, suggesting a potentially younger and more economically vulnerable population. This pattern reinforces the narrative that people tend to move into areas with similar socioeconomic profiles, thereby maintaining existing support compositions. A noteworthy exclusion in the dataset is the SU (student support), which is not included in the current visualizations as it is not present in the data. Given the concentration of student populations in districts such as *Nørrebro* and *Vesterbro*, this omission may partially obscure the socioeconomic dynamics in these areas. 
+
+Social assistance is perhaps the most debated type of income support and often leveraged by politicians, as public opinions on the topic are highly polarized (*Source: [Belingske](https://www.berlingske.dk/politik/et-besoeg-hos-en-kontanthjaelpsmodtager-har-gjort-stort-indtryk-paa-las)*). From the plot, we can observe differences in the share of residents receiving social assistance across districts. *Bispebjerg* has the highest average share of residents receiving social assistance. However, further examination of support types over the years (see the explainer notebook) reveals that this is primarily driven by a spike in 2014, where approximately 8% of residents received social assistance. By 2019, this figure had reduced to around 5% - still the highest among the districts. All districts, however, experienced a noticeable increase in social assistance in 2014, likely due to the lingering effects of the financial crisis, which led to increased unemployment. Additionally, governmental initiatives, such as the introduction of arbejdsmarkedsydelse (labour market allowance), aimed to reduce the state’s financial burden by encouraging employment and limiting the years during which citizens were eligible for benefits. (*Sources: [Avisen.dk and Ritzau](https://www.avisen.dk/staten-faar-lavere-regning-for-flere-paa-kontanthjae_322727.aspx)* and *[Danmarks Statistik](https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=19305)*)
 
 
-### Income Development
 
-Income serves as a primary indicator of socioeconomic status. The plot below illustrates the income distribution across districts over time, allowing us to observe shifts in economic conditions and disparities in affluence.
+### Wealth Gaps and Rising Incomes
+
+After examining income support, we now turn to household income, a critical measure of socioeconomic status that can reveal significant disparities across Copenhagen’s districts. In the exploratory analysis, we observed a notable increase in household income across all constituencies over time, suggesting a general economic uplift for all of Copenhagen from 2009 to 2019. However, while income levels have risen, the distribution is not uniform across districts. The interactive plot below highlights these disparities, showing the proportion of households in various income brackets from 2009 to 2019. Overall, the share of households earning 500,000–749,999 DKK and over 750,000 DKK has increased across all districts, reflecting broader economic growth and a changing city.
+
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
         <iframe src="assets/income_districts_stacked_bar.html" 
@@ -110,26 +120,23 @@ Income serves as a primary indicator of socioeconomic status. The plot below ill
                 height="520">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 7:</strong> Interactive plot of the income per household in Copenhagen for the years 2009 to 2019. Click the toggle to explore another district. Income levels in Copenhagen have risen significantly in the last 15 years for all districts. This overall increase reflects economic growth and the rising cost of living in a capital city.
+        <strong>Figure 7: Interactive plot of household income distribution in Copenhagen over three reference years (2009, 2014, 2019)</strong>. The plot shows how income levels have shifted across districts, with a noticeable increase in higher income intervals over time. Click the toggle to view other districts and observe differences in income distribution and hover the distributions to see exact share of income interval.
         </figcaption>
 </figure>
 
 
-From 2009 to 2019, affluent districts like Indre By and Østerbro have seen pronounced income growth, with a larger share of households moving into the highest income brackets. Meanwhile, areas like Tårnby and Brønshøj lag behind, maintaining a higher proportion of households in lower income brackets. These trends suggest a widening income gap across districts, potentially reinforcing existing socioeconomic divides and affecting local political alignments.
+*Tårnby*, *Falkoner*, and *Indre By* stand out as the wealthiest districts, with 35% or more of households in each district earning above 750,000 DKK annually by 2019. In contrast, *Nørrebro* and *Bispebjerg* maintain a more diverse income distribution, with a broader spectrum of income brackets. This broader distribution aligns with the income support patterns observed earlier, where these districts had higher shares of unemployment benefits. 
+A common trend across all districts is the overall rise in income levels. The number of households earning over 750,000 DKK annually has approximately doubled from 2009 to 2019 in every district. The most pronounced increase occurs in *Bispebjerg* and *Nørrebro*, where the share of households earning over 500,000 DKK rose from 18.7% to 35.9% and 20% to 40%, respectively. In *Tårnby*, the share of households earning above 500,000 DKK annually increased from 43% to 55%, further solidifying its profile as a higher-income district. However, this increase is less dramatic compared to the steeper rises in *Nørrebro* and *Bispebjerg*. 
 
+Another notable trend is the sharp decline in households earning 100,000–149,999 DKK annually, a pattern consistent across all districts. This decline suggests a broader economic uplift, but it also raises questions about the affordability of living in Copenhagen for lower-income residents (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*). As these lower-income brackets steadily diminish, the question arises: Will the city’s diversity persist if lower-income households are increasingly priced out? The observed trends suggest that Copenhagen is becoming increasingly affluent across all districts, with rising income levels and a growing share of high-income households. However, since the data does not track individuals over time, it is unclear whether these trends are driven by current residents earning more or by the arrival of wealthier newcomers.
 
-Looking at the districts individually, a more nuanced picture appears. Inner districts such as Indre By and Østerbro show the steepest income growth, while others like Tårnby and Brønshøj lag behind. This increasing disparity is important for understanding the evolving class-based dimensions of political alignment in the city.
+While rising incomes may signal economic growth, it could also indicate growing economic polarization. This could particularly affect districts with more uniform income distributions, such as *Nørrebro* and *Bispebjerg*, where economic diversity may foster a another spectrum of political beliefs and values as we saw in the party vote shares and winning parties in the election analysis. 
+As the city becomes more expensive to live in, some residents may also be priced out, leading to a wealthier overall population which needs to be noticed and planned for in the future (*Source: [Via Ritzau](https://via.ritzau.dk/pressemeddelelse/13726689/ny-undersogelse-derfor-flytter-tusindvis-hvert-ar-til-og-fra-kobenhavn?lang=da)*). 
+However, this polarization trend may also contribute to higher voter turnout in some areas. For instance, Falkoner — with 56.6% of households earning more than 500,000 DKK annually — also has the highest voter turnout (Figure 1, DATA). This could be because income disparity within the district mobilizes those earning less to make their voices heard, as suggested by research on income inequality and voter mobilization (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). 
+On the other hand, Tårnby presents a different pattern. Despite having a similar income distribution to Falkoner, with more than a third of households earning above 750,000 DKK annually, it does not exhibit the same high voter turnout. This could be linked to the political dynamics observed in the election analysis (Figure 3, ELECTIONS), where *Socialdemokratiet*, *Venstre*, and, up until 2019, *Dansk Folkeparti* have maintained a strong presence in *Tårnby*, contrasting with the more balanced political landscape in *Falkoner*. 
 
+Overall, while the income distributions across districts are evolving, with rising affluence and a shrinking share of lower-income households, the relationship between income and political preferences remains complex. Similar income profiles do not necessarily translate into similar voting patterns, as demonstrated by the contrasting political landscapes in districts like *Falkoner* and *Tårnby*, where comparable income levels are associated with distinctly different electoral outcomes. 
 
-Closely tied to the income is the size of the living areas of the residents. As we saw in the notebook (source our notebook) the average housing size show a tendency of steadily increasing by the years. The trend is most pronounced in districts where income has also risen. This suggests a close relationship between rising affluence and residential expansion — possibly reflecting shifts in household structure, lifestyle, and urban planning.
-
-
-
-
-
-<!-- Copenhagen’s demographic and socioeconomic landscape has transformed considerably over the past two decades. With a growing, increasingly diverse, and more educated population — combined with rising income and housing expansion — the city’s electorate is also changing. These demographic dynamics offer important context for understanding the evolving political landscape we explored in the election section.
-
-How does all this tie together with the election data and is it even possible to say something about the trends and shifts of the political parties and their votes in Copenhagen? Click on the next tab [Final Insights](../studycase#finalinsights) to know more! -->
 
 
 ### Now, please continue to the [next page](../studycase#finalinsights), FINAL INSIGHTS, where we wrap up.

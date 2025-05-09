@@ -20,7 +20,7 @@ You can always navigate the website by clicking the pages' tabs in the top right
 
 ## Video Assignment A
 
-For a fun and short introduction to the project, check out our video from Project Assignment A.
+For a fun and short introduction to the project, check out our video from Project Assignment A. We have also used some of the phrases from this song throuhout our website, they are meant as an introduction for the different sections.
 <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Li7nbBsR0Qw" frameborder="0" allowfullscreen></iframe> -->
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
     <iframe src="https://www.youtube.com/embed/Li7nbBsR0Qw" 

@@ -14,13 +14,13 @@ hero_subtitle: Tying the Elections data and Demographics data Together.
 
 After exploring how elections have evolved over the past two decades, and examining the demographic shifts shaping Copenhagen's population, we now bring these two perspectives together.
 
-Elections do not happen in a vacuum — they reflect the people who vote, the neighborhoods they live in, and the conditions that shape their everyday lives. By combining election results with demographic and socioeconomic data, we can begin to uncover deeper patterns: Why do some districts consistently vote for certain parties? How might population age, income, or education be influencing political change?
+Elections do not happen in a vacuum — they reflect the people who vote, the neighborhoods they live in, and the conditions that shape their everyday lives. As mentioned we are neither political, demographic or economic experts we can only highlight what the data showed us, and encourage the reader to explore further.
 
 In this final section, we offer insights that bridge voting behavior with the realities of life in Copenhagen — both at the city level and through a closer look at one particular district: Tårnby.
 
 
 
-## Tårnby - Another kind of Constituency 
+### Tårnby - Another kind of Constituency 
 
 * Appears the same as Falkoner, Slots and Indre for income, age and support.
 * Appears very different from all districts according to origin/diversity and educational level.
@@ -29,7 +29,7 @@ How come Tårnby is so similar with the other districts (different though for di
 
 
 
-## Synthesis
+### Synthesis
 
 What we have seen overall for all the districts.
 
