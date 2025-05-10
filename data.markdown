@@ -8,7 +8,7 @@ hero_title: Data Insights
 hero_subtitle: Discover the details behind the datasets
 ---
 
-## <a id="dataset"></a>Dataset
+## <a id="dataset"></a>Say Hello to the Data
 
 > 🎵 *What do we need? The data’s key*\
 > 🎵 *Election votes in each constituency.*\
@@ -139,12 +139,15 @@ The sociodemographic data covers a wide range of characteristics, which we group
 
 In total, the dataset consists of 43,404 entries across 40 variables, occupying 11.4 MB of space.
 
-## <a id="basic-stat"></a>Basic Statistics
+<br>
+
+## <a id="basic-stat"></a>Now, Let's See What It's Already Saying
 
 In the following sections some basic statistics are presented in order to gain knowledge and understanding of the data.
 
 ### Vote Turnout 
-To begin, we examine the election data by looking at voter turnout over time — both for Copenhagen as a whole and for each individual constituency. Voter turnout is calculated as the number of votes cast divided by the number of eligible voters, both of which are provided in the dataset.
+To begin, we examine the election data by looking at voter turnout over time — both for Copenhagen as a whole and for each individual constituency. Voter turnout is calculated as the number of votes cast divided by the number of eligible voters, both of which are provided in the dataset.  
+The figure below shows voter turnout in each constituency across national elections over the past two decades. To zoom in on a specific time period, hover over the chart — when your cursor turns into a ‘+’, click and drag across the range you want to zoom in on. You can also deselect specific districts by clicking their colored labels in the legend.
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
   <iframe src="assets/vote_turnout_const.html" 
@@ -153,12 +156,12 @@ To begin, we examine the election data by looking at voter turnout over time —
   </iframe>
   <figcaption style="margin-bottom: 0.10rem; font-style: italic;">
     <strong>Figure 1: Voter turnout across years by constituency.</strong> 
-    This interactive chart allows you to explore voter turnout over time across different districts in Copenhagen. Click on district names in the legend to show or hide them. To zoom in on a specific period, click and drag over the area you'd like to examine in more detail.
+    This interactive chart allows you to explore voter turnout over time across different districts in Copenhagen. Click on district names in the legend to show or hide them. To zoom in on a specific period, click and drag over the area you'd like to examine in more detail. Double-click, to reset axes.
   </figcaption>
 </figure>
 
-The figure above illustrates voter turnout in each constituency across election years over the past two decades. Notably, the *Bispebjerg* constituency consistently shows the lowest turnout in every election, while *Falkoner* consistently has the highest. These differences become particularly interesting when we later examine population data to identify patterns that may help explain variations in voting behavior across districts.
-
+*So what can we takeaway from this illustration?*  
+Notably, the *Bispebjerg* constituency consistently shows the lowest turnout in every election, while *Falkoner* consistently has the highest. These differences become particularly interesting when we later examine population data to identify patterns that may help explain variations in voting behavior across districts.  
 When comparing individual constituencies to the overall average turnout in Copenhagen, we observe that *Bispebjerg*, *Valby*, *Sundbyvester*, *Sundbyøster*, and *Brønshøj* consistently fall below the citywide average. This suggests that these areas tend to have lower levels of voter engagement compared to other parts of Copenhagen.
 
 ### Population Count 
@@ -210,7 +213,7 @@ Finally, we examine household income levels in Copenhagen over time. This provid
   </iframe>
   <figcaption style="margin-bottom: 0.10rem; font-style: italic;">
     <strong>Figure 2: Household income distribution over time.</strong> 
-    This interactive chart allows you to explore how household income has developed over time in Copenhagen. Click on income metric in the legend to show or hide them. To zoom in on a specific period, click and drag over the area you'd like to examine in more detail.
+    This interactive chart allows you to explore how household income has developed over time in Copenhagen. Click on income metric in the legend to show or hide them. To zoom in on a specific period, click and drag over the area you'd like to examine in more detail. Double-click, to reset axes.
   </figcaption>
 </figure>
 
@@ -221,4 +224,4 @@ The broader socioeconomic shift is also evident in long-term changes among famil
 
 
 
-### Now, please continue to the [next page](../elections#elections), ELECTIONS, where we dive further into the elections data.
+*Now, please continue to the [next page](../elections#elections), ELECTIONS, where we dive further into the elections data.*
