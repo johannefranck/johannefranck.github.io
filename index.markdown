@@ -17,7 +17,7 @@ Are you ready to dive in and see what patterns you notice?
 
 We suggest, you start by going to the [next page](../data#dataset), DATA, where we get you introduced to the data!
 
-* *Jupyter nb viewer for our <a href="https://nbviewer.org/github/johannefranck/SocialData2025_FinalProject/blob/main/Explainer_notebook.ipynb" target="_blank">Explainer Notebook</a>*
+* *Jupyter nbviewer for our <a href="https://nbviewer.org/github/johannefranck/SocialData2025_FinalProject/blob/main/Explainer_notebook.ipynb" target="_blank">Explainer Notebook</a>*
 * *<a href="https://github.com/johannefranck/SocialData2025_FinalProject/tree/main" target="_blank">Github</a> repository*
 
 <br>

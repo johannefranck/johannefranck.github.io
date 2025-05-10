@@ -81,7 +81,7 @@ These trends can also be seen from the data. Districts with higher education lev
 
 <br><br>
 
-## Socioeconomic Divides - From Paychecks to Pensions
+## Socioeconomic Divides: From Paychecks to Pensions
 
 >🎵 *Is Nørrebro all red and bold?*\
 >🎵 *Does Frederiksberg stay rich and cold?*  
@@ -96,7 +96,7 @@ Our data spans three reference years (2009, 2014, 2019), capturing a decade mark
 
 The income support distribution provide a lens through which we can better understand the socioeconomic composition of Copenhagen’s constituencies. By examining the distribution of various support types — such as unemployment benefits, state pensions, and social assistance — we can gain insight into the structural economic differences that demographic measures alone cannot show.
 
-In the plot below, we present the average distribution of support types across three reference years (2009, 2014, 2019). Despite an initial expectation about very fluctuating ratios of support types over the years, the initial analysis revealed a relatively stable support composition within all districts (the trends over the years is available in the explainer notebook but is omitted here for conciseness). To highlight differences between districts more clearly, the data is averaged over the years, steering the focus toward inter-district variability rather than temporal changes. This stability is observed even as approximately 10,000 residents moved to the respective districts within the time period as we saw in the explorative analysis and household numbers increased for all districts. This suggests that new residents tend to reflect existing socioeconomic patterns rather than alter them (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*).
+In the plot below, we present the average distribution of support types across three reference years (2009, 2014, 2019). Despite an initial expectation about very fluctuating ratios of support types over the years, the initial analysis revealed a relatively stable support composition within all districts. Therefore, to highlight differences between districts more clearly, the data is averaged over the years, steering the focus toward inter-district variability rather than temporal changes. This stability is observed even as approximately 10,000 residents moved to the respective districts within the time period as we saw in the explorative analysis and household numbers increased for all districts. This suggests that new residents tend to reflect existing socioeconomic patterns rather than alter them (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*).
 
 
 
@@ -113,7 +113,7 @@ In the plot below, we present the average distribution of support types across t
 
 The interactive plot reveals distinct differences in income support distribution across Copenhagen’s districts for the averaged period for the elections. The most notable difference between districts is the relative high share of residents receiving state pension in *Tårnby*, *Slots* and *Falkoner*. This aligns with the previously observed age distribution in these areas, where a higher proportion of older residents is concentrated. *Tårnby* also stands out with a relatively higher share of residents receiving early retirement benefits, further emphasizing its older demographic profile. In contrast, other areas seem to have a much other composition of residents as there are averagely less than 10% on the different pension supports in *Nørrebro*, *Vesterbro* and *Bispebjerg*. For these districts, unemployment benefits represent the highest relative share of support, suggesting a potentially younger and more economically vulnerable population. This pattern reinforces the narrative that people tend to move into areas with similar socioeconomic profiles, thereby maintaining existing support compositions. A noteworthy exclusion in the dataset is the SU (student support), which is not included in the current visualizations as it is not present in the data. Given the concentration of student populations in districts such as *Nørrebro* and *Vesterbro*, this omission may partially obscure the socioeconomic dynamics in these areas. 
 
-Social assistance is perhaps the most debated type of income support and often leveraged by politicians, as public opinions on the topic are highly polarized (*Source: [Berlingske](https://www.berlingske.dk/politik/et-besoeg-hos-en-kontanthjaelpsmodtager-har-gjort-stort-indtryk-paa-las)*). From the plot, we can observe differences in the share of residents receiving social assistance across districts. *Bispebjerg* has the highest average share of residents receiving social assistance. However, further examination of support types over the years (see the explainer notebook) reveals that this is primarily driven by a spike in 2014, where approximately 8% of residents received social assistance. By 2019, this figure had reduced to around 5% - still the highest among the districts. All districts, however, experienced a noticeable increase in social assistance in 2014, likely due to the lingering effects of the financial crisis, which led to increased unemployment. Additionally, governmental initiatives, such as the introduction of arbejdsmarkedsydelse (labour market allowance), aimed to reduce the state’s financial burden by encouraging employment and limiting the years during which citizens were eligible for benefits. (*Sources: [Avisen.dk and Ritzau](https://www.avisen.dk/staten-faar-lavere-regning-for-flere-paa-kontanthjae_322727.aspx)* and *[Danmarks Statistik](https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=19305)*)
+Social assistance is perhaps the most debated type of income support and often leveraged by politicians, as public opinions on the topic are highly polarized (*Source: [Berlingske](https://www.berlingske.dk/politik/et-besoeg-hos-en-kontanthjaelpsmodtager-har-gjort-stort-indtryk-paa-las)*). From the plot, we can observe differences in the share of residents receiving social assistance across districts. *Bispebjerg* has the highest average share of residents receiving social assistance. However, further examination of support types over the years reveals that this is primarily driven by a spike in 2014, where approximately 8% of residents received social assistance. By 2019, this figure had reduced to around 5% - still the highest among the districts. All districts, however, experienced a noticeable increase in social assistance in 2014, likely due to the lingering effects of the financial crisis, which led to increased unemployment. Additionally, governmental initiatives, such as the introduction of arbejdsmarkedsydelse (labour market allowance), aimed to reduce the state’s financial burden by encouraging employment and limiting the years during which citizens were eligible for benefits. (*Sources: [Avisen.dk and Ritzau](https://www.avisen.dk/staten-faar-lavere-regning-for-flere-paa-kontanthjae_322727.aspx)* and *[Danmarks Statistik](https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=19305)*)
 
 <br>
 
@@ -137,7 +137,7 @@ After examining income support, we now turn to household income, a critical meas
 *Tårnby*, *Falkoner*, and *Indre By* stand out as the wealthiest districts, with 35% or more of households in each district earning above 750,000 DKK annually by 2019. In contrast, *Nørrebro* and *Bispebjerg* maintain a more diverse income distribution, with a broader spectrum of income brackets. This broader distribution aligns with the income support patterns observed earlier, where these districts had higher shares of unemployment benefits. 
 A common trend across all districts is the overall rise in income levels. The number of households earning over 750,000 DKK annually has approximately doubled from 2009 to 2019 in every district. The most pronounced increase occurs in *Bispebjerg* and *Nørrebro*, where the share of households earning over 500,000 DKK rose from 18.7% to 35.9% and 20% to 40%, respectively. In *Tårnby*, the share of households earning above 500,000 DKK annually increased from 43% to 55%, further solidifying its profile as a higher-income district. However, this increase is less dramatic compared to the steeper rises in *Nørrebro* and *Bispebjerg*. 
 
-Another notable trend is the sharp decline in households earning 100,000–149,999 DKK annually, a pattern consistent across all districts. This decline suggests a broader economic uplift, but it also raises questions about the affordability of living in Copenhagen for lower-income residents (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*). As these lower-income brackets steadily diminish, the question arises: Will the city’s diversity persist if lower-income households are increasingly priced out? The observed trends suggest that Copenhagen is becoming increasingly affluent across all districts, with rising income levels and a growing share of high-income households. However, since the data does not track individuals over time, it is unclear whether these trends are driven by current residents earning more or by the arrival of wealthier newcomers.
+Another notable trend is the sharp decline in households earning 100,000–149,999 DKK annually, a pattern consistent across all districts. This decline suggests a broader economic uplift, but it also raises questions about the affordability of living in Copenhagen for lower-income residents (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*). As these lower-income brackets steadily diminish, the question arises: Will the city’s diversity persist if lower-income households are increasingly priced out? The observed trends suggest that Copenhagen is becoming increasingly affluent across all districts, with rising income levels and a growing share of high-income households. However, since the data does not track individuals over time, it is unclear whether these trends are driven by current residents earning more or by the arrival of wealthier newcomers. (*Source: [AE Rådet](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*)
 
 While rising incomes may signal economic growth, it could also indicate growing economic polarization. This could particularly affect districts with more uniform income distributions, such as *Nørrebro* and *Bispebjerg*, where economic diversity may foster a another spectrum of political beliefs and values as we saw in the party vote shares and winning parties in the election analysis. 
 As the city becomes more expensive to live in, some residents may also be priced out, leading to a wealthier overall population which needs to be noticed and planned for in the future (*Source: [Via Ritzau](https://via.ritzau.dk/pressemeddelelse/13726689/ny-undersogelse-derfor-flytter-tusindvis-hvert-ar-til-og-fra-kobenhavn?lang=da)*). 
@@ -148,7 +148,41 @@ Overall, while the income distributions across districts are evolving, with risi
 
 <br>
 
-*Now, please continue to the [next page](../studycase#finalinsights), FINAL INSIGHTS, where we wrap up.*
+*Now, please continue to the [next page](../beyond#beyond), BEYOND, where we wrap up.*
+
+
+
+<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+
+  <div style="text-align: center; max-width: 40%;">
+    <img src="assets/bolig_market.png" 
+         alt="increasing rent" 
+         style="width: 100%; height: 400;" />
+    <p style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+      Source: 
+      <a href="https://politiken.dk/debat/debatindlaeg/art8467266/Vi-kan-ikke-bygge-os-ud-af-sk%C3%A6vhederne-p%C3%A5-boligmarkedet" 
+         target="_blank" rel="noopener noreferrer">
+        Politiken
+      </a>
+    </p>
+  </div>
+
+  <div style="text-align: center; max-width: 45%;">
+    <img src="assets/polstret_til_fremtiden.png" 
+         alt="til krisetider" 
+         style="width: 100%; height: 300;" />
+    <p style="font-size: 0.85em; color: #555; margin-top: 0.5em;">
+      Source: 
+      <a href="https://www.weekendavisen.dk/2018-34/samfund/krisen-ingen-glemmer?fbclid=IwZXh0bgNhZW0CMTEAAR7z41BsBj1CKBxtsA4OegXZgitt6HVMBhR20cNEWf2yigG-yOF1g5TdljZBkw_aem_ed8BRE05CmO8yPwTJStw-A" 
+         target="_blank" rel="noopener noreferrer">
+         Weekendavisen
+      </a>
+    </p>
+  </div>
+
+</div>
+
+<br>
 
 
 

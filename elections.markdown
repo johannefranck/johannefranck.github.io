@@ -194,6 +194,9 @@ With all the figures and maps we have seen so far, there are many interesting tr
 (*Source: [danmarkshistorien.dk – Folketingsvalget 2022](https://danmarkshistorien.lex.dk/Folketingsvalget_2022)*). Although such circumstances might typically be expected to weaken a party’s position, *Socialdemokratiet* instead gained increased support across all constituencies and won in more districts compared to the previous election year. This suggests a base of loyal support in Copenhagen suburban districts. The timing of the election may also have played a role. With Europe facing uncertainty due to the war in Ukraine and an escalating energy crisis, *Socialdemokratiet* positioned itself as a stable and unifying force — a party capable of governing in times of crisis — which may have appealed to voters
 (*Source: [TV2 Nyheder](https://nyheder.tv2.dk/politik/2022-10-05-derfor-gaar-mette-frederiksen-til-valg-paa-en-regering-henover-midten)*).
 
+<br>
+
+*Now, please continue to the [next page](../demographics#Sociodemographics), SOCIODEMOGRAPHICS, where we explore the sociodemographic dynamics.*
 
 <div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
 
@@ -224,7 +227,3 @@ With all the figures and maps we have seen so far, there are many interesting tr
   </div>
 
 </div>
-
-<br>
-
-*Now, please continue to the [next page](../demographics#Sociodemographics), SOCIODEMOGRAPHICS, where we explore the sociodemographic dynamics.*
