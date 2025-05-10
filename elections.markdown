@@ -121,10 +121,10 @@ In **2019**, the city completed its leftward journey. *Tårnby*, long the only r
   </div>
 
   <!-- Image section -->
-  <div style="flex: 1; min-width: 100px;">
+  <div style="flex: 1; max-width: 300px;">
     <img src="assets/climatenuts.png" 
          alt="Climate Nuts" 
-         style="width: 100%; max-height: 350px; height: 140px; border-radius: 5px;" />
+         style="width: 100%; height: auto; border-radius: 5px;" />
     <p style="font-size: 0.85em; color: #555; text-align: center; margin-top: 0.5em;">
       Source: 
       <a href="https://www.facebook.com/profile.php?id=100064848514652" 
