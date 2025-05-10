@@ -15,19 +15,17 @@ hero_subtitle: Exploring the Demographics and Socioeconomic data of the People i
 
 Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.
 
-In this section, we take a closer look at Copenhagen’s demographics to better understand these underlying shifts. Who lives in the city? How has that changed over time? And how might these trends relate to what we observe politically?
+In this section, we take a closer look at Copenhagen’s demographics to better understand these underlying shifts. The city of Copenhagen has seen continuous population adn wealth growth over the last 20 years, driven by both natural increase and migration (see [DATA](../data#dataset)). This growth provides crucial context for understanding electoral changes: more people means more voters — and possibly a shifting voter base.  
+Where does the population increase stem from? Who lives in the different neighborhoods of Copenhagen? How has that changed over time? And how might these trends relate to what we observe politically?
 
-We begin by exploring how the total population has grown, followed by an examination of the age, origin, and educational background of residents. We then dive into key socioeconomic factors like income and support types, comparing patterns across districts and years. Finally, we consider how rising incomes appear to correlate with increasing housing sizes — offering a more nuanced view of life in Copenhagen over the past two decades.
+We explore the age and educational background of residents in different neighborhoods, and then dive into key socioeconomic factors like income and support types.
 
 <br>
 
 ### From Boomers to Zoomers: Who Lives Where?
 
-
-The city of Copenhagen has seen continuous population growth over the last 20 years, driven by both natural increase and migration. This growth provides crucial context for understanding electoral changes: more people means more voters — and possibly a shifting voter base.
-
-
-
+First, we zoom in on age. What is the age distribution like in the different neighorhoods of Copenhagen? And has this changed over the two decades?  
+To find out, take a look at the Figure below. 
 
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
@@ -37,18 +35,23 @@ The city of Copenhagen has seen continuous population growth over the last 20 ye
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure xx: Title</strong> Bla bla
+        <strong>Figure 4: Population distribution by age groups for each districts from 2004 to 2019</strong> Each color band shows an age group’s share of the total population. Use the dropdown to change district, the legend to filter age groups, and click-drag to zoom. Double-click to reset axes.
         </figcaption>
 </figure>
 
-The population increased steadily, especially between 2005 and 2020. This is likely influenced by both internal urbanization and international immigration. Such demographic shifts may explain part of the evolving political support observed in the Elections section.
+The most stricking thing one can notice from this plot is how Copenhagen’s neighborhoods seem to differ a lot when it comes to age. Most districts are dominated by 20–39 year olds - except *Tårnby*, where older age groups are more prominent. In places like *Nørrebro* and *Vesterbro*, nearly 70% of the population is under 40.
+
+Some areas, like *Bispebjerg*, are getting younger over time. Others, like *Vesterbro*, are seeing a shift toward older age groups. But in general, most districts stay surprisingly stable - pherhaps this suggest that people move to places that match their demographics?
+
+These age patterns may help explain voting differences. Younger areas tend to vote more green (*Source: [DR 2022](https://www.dr.dk/nyheder/politik/folketingsvalg/de-unge-har-talt-intet-valgtema-slaar-klimaet)*) and less traditionally (*Source: [Altinget 2019](https://www.altinget.dk/artikel/farvel-til-magtpartierne-saadan-stemte-de-unge-til-valget)*). This lines up with what we see in places like *Nørrebro* and *Vesterbro*, where green, untraditional paties like Enhedslisten and Alternativet are very popular, and the people, generally younger.
+
 
 
 <br>
 
 ### Districts and Degrees: A City of Academics?
 
-Copenhagen’s population has changed notably over the past two decades, both in terms of background and educational level. Two important aspects of this development are the increasing share of residents with immigrant backgrounds and the rising number of highly educated citizens.
+Copenhagen’s population has changed notably over the past two decades in terms of a rising number of highly educated citizens. This becomes evident, when investigating the visual below. However, there are also big district wide differences - can you spot them?
 
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
@@ -58,15 +61,20 @@ Copenhagen’s population has changed notably over the past two decades, both in
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure X:</strong> OBS add text! 
+        <strong>Figure 5: Population distribution on highest achieved education level by district from 2004 to 2019</strong> Each color band shows an education level's share of the total population. Use the dropdown to change district, the legend to filter education level groups, and click-drag to zoom. Double-click to reset axes.
         </figcaption>
 </figure>
 
-The proportion of immigrants and descendants of immigrants has grown steadily, especially in districts like Nørrebro and Bispebjerg. 
 
-In parallel, educational attainment has increased across the city. Inner districts in particular have a high share of university-educated residents. This aligns with broader urban trends where education level correlates with support for progressive parties, especially on issues such as climate change, equality, and education policy. Nørrebro has a very high share of highly educated residents while Tårnby on the other hand has very few higher educated residents. This might also be a result of the older residents in Tårnby compared to Nørrebro. 
+This plot looks quite different from the age one — here, we see clear changes over time in every district.
+In central areas like *Indre By*, *Østerbro*, and *Nørrebro*, Master’s degrees are now the most common education level, and over half the population holds a university degree. Outer districts like *Brønshøj*, *Valby*, and *Sundbyøster* show a more mixed distribution, but still follow the same overall trend: more higher education, less vocational and primary education.
 
-These developments help explain shifts in electoral patterns across Copenhagen and suggest an evolving voter base influenced by both cultural background and educational profile.
+Then there’s *Tårnby*, which stands out. Its shift is much less pronounced — and fewer than 30% have higher education. Most of the population still hold vocational or primary school degrees, setting it apart from the rest of the city.
+
+Then the question just remains - do social background affect how we vote? According to *[Berlingske](https://cvap.polsci.ku.dk/forskning/valgkamp/presse/Social_baggrund_afg_r_igen_partivalg_-_CVAP_i_Berlingske.pdf)*, it does. Lower education level tends to more often result in right wing votes *["De Kortuddannede trækker mod blå blok"](https://www.mm.dk/artikel/de-kortuddannede-traekker-mod-blaa-blok)*. Within the blocks, there are also differences. For example, *Radikale Venstre* is one of the most popular left-wing parties among the highest educated. *SF* and *Enhedslisten*'s voter base is stronger among the higher educated, whereas *Socialdemokratiet* is stronger among the lower education levels *(Source: [Finans.dk](https://finans.dk/politik/ECE7776519/S%C3%A5dan-stemmer-danskerne-efter-indkomst-og-uddannelse/))*.
+
+These trends can also be seen from the data. Districts with higher education levels (like *Indre By* and *Østerbro*) tend to vote more for Radikale Venstre and other progressive parties.  
+*Tårnby*, with lower education levels, leans more right-wing. But not all trends align perfectly — Frederiksberg (*Slots* and *Falkoner*) has high education levels but still votes more to the right (compared to other districts of Copenhagen), showing how nuanced district-level dynamics can be.
 
 
 
