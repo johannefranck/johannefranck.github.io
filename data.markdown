@@ -67,6 +67,7 @@ We specifically filtered the data to the following constituencies within **Købe
 
 While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 seats (mandates), 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, 135 of the mandates are allocated directly in the 10 multi-member constituencies (like Københavns Storkreds) based on vote counts in each multi-member constituencies, hence all the constituencies of Copenhagen together contribute to the same pool of mandates from Copenhagen Storkreds. The last 40 mandates are distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
 
+<br>
 
 ### Supplementary Data: Population Insights
 
@@ -135,11 +136,9 @@ The sociodemographic data covers a wide range of characteristics, which we group
   
 </div>
 
-#### Size of the dataset
+*In total, the dataset consists of 43,404 entries across 40 variables, occupying 11.4 MB of space.*
 
-In total, the dataset consists of 43,404 entries across 40 variables, occupying 11.4 MB of space.
-
-<br>
+<br><br>
 
 ## <a id="basic-stat"></a>Now, Let's See What It's Already Saying
 
@@ -163,6 +162,8 @@ The figure below shows voter turnout in each constituency across national electi
 *So what can we takeaway from this illustration?*  
 Notably, the *Bispebjerg* constituency consistently shows the lowest turnout in every election, while *Falkoner* consistently has the highest. These differences become particularly interesting when we later examine population data to identify patterns that may help explain variations in voting behavior across districts.  
 When comparing individual constituencies to the overall average turnout in Copenhagen, we observe that *Bispebjerg*, *Valby*, *Sundbyvester*, *Sundbyøster*, and *Brønshøj* consistently fall below the citywide average. This suggests that these areas tend to have lower levels of voter engagement compared to other parts of Copenhagen.
+
+<br>
 
 ### Population Count 
 
@@ -203,6 +204,8 @@ Next, we examine the population count in Copenhagen over time. The table below s
 
 We observe a steady increase in Copenhagen's population over this period, with a total growth of 22.74% from 2004 to 2019. This population growth may have implications for voting behavior, as a larger and potentially more diverse population can lead to broader variation in political preferences. It is particularly interesting to explore where in the city this growth is occurring — and how it may relate to changing voting patterns across constituencies.
 
+<br>
+
 ### Income per Household
 Finally, we examine household income levels in Copenhagen over time. This provides insight not only into the socioeconomic status of the residents but may also indicate the types of people who are moving to the city and staying in the city (*Source: [AE Rådet, 2021](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*).
 
@@ -222,6 +225,6 @@ It is striking to see how average household income in Copenhagen has risen signi
 The broader socioeconomic shift is also evident in long-term changes among families. In the 1990s, one in three children in Copenhagen came from working-class households. Today, that number has been cut in half, while the proportion of children from upper-class and upper-middle-class families has tripled. As one report puts it: *“Copenhagen is becoming less of a city that all families can afford to live in — and more of a city for the well-off.”* (*Source: [AE Rådet, 2021](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*)
 
 
-
+<br>
 
 *Now, please continue to the [next page](../elections#elections), ELECTIONS, where we dive further into the elections data.*

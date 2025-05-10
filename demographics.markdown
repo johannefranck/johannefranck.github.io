@@ -5,13 +5,13 @@
 layout: custom_home
 title: Sociodemographics 
 hero_title: Sociodemographics
-hero_subtitle: Exploring the Demographics and Sociodemographic data of the People in Copenhagen
+hero_subtitle: Exploring the Demographics and Socioeconomic data of the People in Copenhagen
 ---
 
-## <a id="Sociodemographics"></a>Sociodemographics
+## <a id="Sociodemographics"></a>Beyond the Ballot: The People Behind the Votes
 
->🎵 *Is Nørrebro all red and bold?*\
->🎵 *Does Frederiksberg stay rich and cold?*  
+> 🎵 *Did demographics play a role?*  
+> 🎵 *Did new arrivals change the poll?*  
 
 Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.
 
@@ -19,13 +19,14 @@ In this section, we take a closer look at Copenhagen’s demographics to better 
 
 We begin by exploring how the total population has grown, followed by an examination of the age, origin, and educational background of residents. We then dive into key socioeconomic factors like income and support types, comparing patterns across districts and years. Finally, we consider how rising incomes appear to correlate with increasing housing sizes — offering a more nuanced view of life in Copenhagen over the past two decades.
 
+<br>
 
-### Population Growth over Time
+### From Boomers to Zoomers: Who Lives Where?
 
 
 The city of Copenhagen has seen continuous population growth over the last 20 years, driven by both natural increase and migration. This growth provides crucial context for understanding electoral changes: more people means more voters — and possibly a shifting voter base.
 
-**Insert plot: Raw count of residents over time**
+
 
 
 
@@ -43,14 +44,11 @@ The city of Copenhagen has seen continuous population growth over the last 20 ye
 The population increased steadily, especially between 2005 and 2020. This is likely influenced by both internal urbanization and international immigration. Such demographic shifts may explain part of the evolving political support observed in the Elections section.
 
 
+<br>
 
-### Diversity and Education
+### Districts and Degrees: A City of Academics?
 
 Copenhagen’s population has changed notably over the past two decades, both in terms of background and educational level. Two important aspects of this development are the increasing share of residents with immigrant backgrounds and the rising number of highly educated citizens.
-
-**Insert plot: Origin (immigrant status) over time or by share**  ?
-
-**Insert plot: Education level (e.g., primary, vocational, higher) by year**
 
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
@@ -73,16 +71,18 @@ These developments help explain shifts in electoral patterns across Copenhagen a
 
 
 
-
-
+<br><br>
 
 ## Socioeconomic Divides - From Paychecks to Pensions
+
+>🎵 *Is Nørrebro all red and bold?*\
+>🎵 *Does Frederiksberg stay rich and cold?*  
 
 This section delves into Copenhagen’s constituencies, examining income support and income. We aim to explore whether economic disparities align with voting preferences and whether the persistent stereotypes about neighborhoods hold true.
 
 Our data spans three reference years (2009, 2014, 2019), capturing a decade marked by financial crises, migration waves, and evolving policy priorities. This temporal scope allows us to observe how economic conditions have shifted over time. By analyzing these socioeconomic factors, we can explore how economic shifts may have influenced public opinion and political priorities across the city. Existing narratives suggest that income can significantly shape political preferences (*Source: [Kristeligt Dagblad](https://www.kristeligt-dagblad.dk/danmark/betyder-indkomsten-noget-stemmeafgivningen)*). Especially if there is a large income variation in the population, as higher income inequality has been found to both mobilize low-income voters and demobilize high-income voters, creating complex dynamics within electorates (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). Through this analysis, we aim to discern whether the socioeconomic data in Copenhagen’s constituencies reflects such patterns — and whether emerging trends reveal untold stories about the city’s evolving political and economic landscape.
 
-
+<br>
 
 ### Income Support Patterns
 
@@ -107,7 +107,7 @@ The interactive plot reveals distinct differences in income support distribution
 
 Social assistance is perhaps the most debated type of income support and often leveraged by politicians, as public opinions on the topic are highly polarized (*Source: [Berlingske](https://www.berlingske.dk/politik/et-besoeg-hos-en-kontanthjaelpsmodtager-har-gjort-stort-indtryk-paa-las)*). From the plot, we can observe differences in the share of residents receiving social assistance across districts. *Bispebjerg* has the highest average share of residents receiving social assistance. However, further examination of support types over the years (see the explainer notebook) reveals that this is primarily driven by a spike in 2014, where approximately 8% of residents received social assistance. By 2019, this figure had reduced to around 5% - still the highest among the districts. All districts, however, experienced a noticeable increase in social assistance in 2014, likely due to the lingering effects of the financial crisis, which led to increased unemployment. Additionally, governmental initiatives, such as the introduction of arbejdsmarkedsydelse (labour market allowance), aimed to reduce the state’s financial burden by encouraging employment and limiting the years during which citizens were eligible for benefits. (*Sources: [Avisen.dk and Ritzau](https://www.avisen.dk/staten-faar-lavere-regning-for-flere-paa-kontanthjae_322727.aspx)* and *[Danmarks Statistik](https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=19305)*)
 
-
+<br>
 
 ### Wealth Gaps and Rising Incomes
 
@@ -138,9 +138,9 @@ On the other hand, *Tårnby* presents a different pattern. Despite having a simi
 
 Overall, while the income distributions across districts are evolving, with rising affluence and a shrinking share of lower-income households, the relationship between income and political preferences remains complex. Similar income profiles do not necessarily translate into similar voting patterns, as demonstrated by the contrasting political landscapes in districts like *Falkoner* and *Tårnby*, where comparable income levels are associated with distinctly different electoral outcomes. 
 
+<br>
 
-
-### Now, please continue to the [next page](../studycase#finalinsights), FINAL INSIGHTS, where we wrap up.
+*Now, please continue to the [next page](../studycase#finalinsights), FINAL INSIGHTS, where we wrap up.*
 
 
 
