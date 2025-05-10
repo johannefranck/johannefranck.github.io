@@ -10,8 +10,6 @@ hero_subtitle: Tying the Elections data and Demographics data Together.
 
 ## <a id="finalinsights"></a>Reading between the Data
 
-
-
 After exploring how elections have evolved over the past two decades, and examining the demographic shifts shaping Copenhagen's population, we now bring these two perspectives together.
 
 Elections do not happen in a vacuum - they reflect the people who vote, the neighborhoods they live in, and the conditions that shape their everyday lives. As mentioned we are neither political, demographic or economic experts we can only highlight what the data showed us, and encourage the reader to explore further.
@@ -24,9 +22,11 @@ In this final section, we offer insights that bridge voting behavior with the re
 Let’s start with the politics. Tårnby is Copenhagen’s most right-leaning district, just ahead of Frederiksberg (Slots & Falkoner). But the top party choices in each reveal a deeper divide: while both districts favor Socialdemokratiet and Venstre, Frederiksberg leans toward Radikale Venstre — Tårnby toward Dansk Folkeparti. Those last two couldn’t be more different (see more in the [ELECTIONS](../elections#elections)).
 
 The same “looks similar, behaves differently” pattern shows up in the demographics. Income levels and welfare stats put Tårnby on par with Frederiksberg. But the age and education story is a whole other thing.  
-In every other district, 20–29-year-olds dominate, but not in Tårnby - here they’re the smallest group. While other areas are dominated by residents with Master’s degrees, *Tårnby* is the opposite: Vocational education is the most common, outnumbering Master’s degrees by a factor of four (see the visuals in the [SOCIODEMOGRAPHICS](../demographics#Sociodemographics) page). 
-
+In every other district, 20–29-year-olds dominate, but not in Tårnby - here they’re the smallest group. While other areas are dominated by residents with Master’s degrees, *Tårnby* is the opposite: Vocational education is the most common, outnumbering Master’s degrees by a factor of four (see the visuals in the [SOCIODEMOGRAPHICS](../demographics#Sociodemographics) page).  
 As mentioned in the Sociodemographics page, less education often links to conservative voting, while younger, highly educated voters tend to lean green or progressive. That’s a big clue to why Tårnby stands out politically.
+
+> 🎵 *With parties shifting left and right*  
+> 🎵 *Do neighborhoods still match the hype?*  
 
 But here’s the twist: Tårnby is also shifting left like the rest of Copenhagen. Why?
 Unlike other districts, this shift can’t be explained by a rising level of education, so maybe the answer lies in the parties.
