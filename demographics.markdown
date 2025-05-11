@@ -15,7 +15,7 @@ hero_subtitle: Exploring the Demographics and Socioeconomic data of the People i
 
 Having explored how election results have evolved across the last six national elections, we now turn our attention to the people behind the votes. Shifts in political outcomes may reflect changes in party landscapes — with new parties emerging and others declining — but they may also reflect changes in the population itself.
 
-In this section, we take a closer look at Copenhagen’s demographics to better understand these underlying shifts. The city of Copenhagen has seen continuous population adn wealth growth over the last 20 years, driven by both natural increase and migration (see [DATA](../data#dataset)). This growth provides crucial context for understanding electoral changes: more people means more voters — and possibly a shifting voter base.  
+In this section, we take a closer look at Copenhagen’s demographics to better understand these underlying shifts. The city of Copenhagen has seen continuous population and wealth growth over the last 20 years, driven by both natural increase and migration (see [DATA](../data#dataset)). This growth provides crucial context for understanding electoral changes: more people means more voters — and possibly a shifting voter base.  
 Where does the population increase stem from? Who lives in the different neighborhoods of Copenhagen? How has that changed over time? And how might these trends relate to what we observe politically?
 
 We explore the age and educational background of residents in different neighborhoods, and then dive into key socioeconomic factors like income and support types.
@@ -35,15 +35,15 @@ To find out, take a look at the Figure below.
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 4: Population distribution by age groups for each districts from 2004 to 2019</strong> Each color band shows an age group’s share of the total population. Use the dropdown to change district, the legend to filter age groups, and click-drag to zoom. Double-click to reset axes.
+        <strong>Figure 4: Population distribution by age groups for each districts from 2004 to 2019.</strong> Each color band shows an age group’s share of the total population. Use the dropdown to change district, the legend to filter age groups, and click-drag to zoom. Double-click to reset axes.
         </figcaption>
 </figure>
 
 The most stricking thing one can notice from this plot is how Copenhagen’s neighborhoods seem to differ a lot when it comes to age. Most districts are dominated by 20–39 year olds - except *Tårnby*, where older age groups are more prominent. In places like *Nørrebro* and *Vesterbro*, nearly 70% of the population is under 40.
 
-Some areas, like *Bispebjerg*, are getting younger over time. Others, like *Vesterbro*, are seeing a shift toward older age groups. But in general, most districts stay surprisingly stable - pherhaps this suggest that people move to places that match their demographics?
+Some areas, like *Bispebjerg*, are getting younger over time. Others, like *Vesterbro*, are seeing a shift toward older age groups. But in general, most districts stay surprisingly stable - perhaps this suggest that people move to places that match their demographics?
 
-These age patterns may help explain voting differences. Younger areas tend to vote more green (*Source: [DR 2022](https://www.dr.dk/nyheder/politik/folketingsvalg/de-unge-har-talt-intet-valgtema-slaar-klimaet)*) and less traditionally (*Source: [Altinget 2019](https://www.altinget.dk/artikel/farvel-til-magtpartierne-saadan-stemte-de-unge-til-valget)*). This lines up with what we see in places like *Nørrebro* and *Vesterbro*, where green, untraditional parties like Enhedslisten and Alternativet are very popular, and the people, generally younger.
+These age patterns may help explain voting differences. Younger areas tend to vote more green (*Source: [DR 2022](https://www.dr.dk/nyheder/politik/folketingsvalg/de-unge-har-talt-intet-valgtema-slaar-klimaet)*) and less traditionally (*Source: [Altinget 2019](https://www.altinget.dk/artikel/farvel-til-magtpartierne-saadan-stemte-de-unge-til-valget)*). This lines up with what we see in places like *Nørrebro* and *Vesterbro*, where green, untraditional parties like *Enhedslisten* and *Alternativet* are very popular, and the people, generally younger.
 
 
 
@@ -61,7 +61,7 @@ Copenhagen’s population has changed notably over the past two decades in terms
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 5: Population distribution on highest achieved education level by district from 2004 to 2019</strong> Each color band shows an education level's share of the total population. Use the dropdown to change district, the legend to filter education level groups, and click-drag to zoom. Double-click to reset axes.
+        <strong>Figure 5: Population distribution on highest achieved education level by district from 2004 to 2019.</strong> Each color band shows an education level's share of the total population. Use the dropdown to change district, the legend to filter education level groups, and click-drag to zoom. Double-click to reset axes.
         </figcaption>
 </figure>
 
@@ -73,13 +73,10 @@ Then there’s *Tårnby*, which stands out. Its shift is much less pronounced �
 
 Then the question just remains - do social background affect how we vote? According to *[Berlingske](https://cvap.polsci.ku.dk/forskning/valgkamp/presse/Social_baggrund_afg_r_igen_partivalg_-_CVAP_i_Berlingske.pdf)*, it does. Lower education level tends to more often result in right wing votes *["De Kortuddannede trækker mod blå blok"](https://www.mm.dk/artikel/de-kortuddannede-traekker-mod-blaa-blok)*. Within the blocks, there are also differences. For example, *Radikale Venstre* is one of the most popular left-wing parties among the highest educated. *SF* and *Enhedslisten*'s voter base is stronger among the higher educated, whereas *Socialdemokratiet* is stronger among the lower education levels *(Source: [Finans.dk](https://finans.dk/politik/ECE7776519/S%C3%A5dan-stemmer-danskerne-efter-indkomst-og-uddannelse/))*.
 
-These trends can also be seen from the data. Districts with higher education levels (like *Indre By* and *Østerbro*) tend to vote more for Radikale Venstre and other progressive parties.  
+These trends can also be seen from the data. Districts with higher education levels (like *Indre By* and *Østerbro*) tend to vote more for *Radikale Venstre* and other progressive parties.  
 *Tårnby*, with lower education levels, leans more right-wing. But not all trends align perfectly — Frederiksberg (*Slots* and *Falkoner*) has high education levels but still votes more to the right (compared to other districts of Copenhagen), showing how nuanced district-level dynamics can be.
 
-
-
-
-<br><br>
+<br>
 
 ## Socioeconomic Divides: From Paychecks to Pensions
 
@@ -98,8 +95,6 @@ The income support distribution provide a lens through which we can better under
 
 In the plot below, we present the average distribution of support types across the three reference years. Despite an initial expectation about very fluctuating ratios of support types over the years, the initial analysis revealed a relatively stable support composition within all districts. Therefore, to highlight differences between districts more clearly, the data is averaged over the years, steering the focus toward inter-district variability rather than temporal changes. 
 This stability is observed even as approximately 10,000 residents moved to the respective districts within the time period and household numbers increased for all districts. This suggests that new residents tend to reflect existing socioeconomic patterns rather than alter them (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*).
-
-
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
         <iframe src="assets/support_type_by_district.html" 
@@ -143,9 +138,9 @@ For all districts we see an overall rise in income levels and a doubling in hous
 Another notable trend is the sharp decline in households earning 100,000–149,999 DKK annually, a pattern consistent across all districts. This decline suggests a broader economic uplift, but it also raises questions about the affordability of living in Copenhagen for lower-income residents (*Source: [RUC Diversitet eller Ensretning](https://ruc.dk/diversitet-eller-ensretning-er-kobenhavn-stadig-alle-om-10-ar)*). As these lower-income brackets steadily diminish, the question arises: Will the city’s diversity persist if lower-income households are increasingly priced out? The observed trends suggest that Copenhagen is becoming increasingly affluent across all districts, with rising income levels and a growing share of high-income households. However, since the data does not track individuals over time, it is unclear whether these trends are driven by current residents earning more or by the arrival of wealthier newcomers. (*Source: [AE Rådet](https://www.ae.dk/files/dokumenter/analyse/ae_velstillede-boernefamilier-indtager-koebenhavn_0.pdf)*)
 
 <!-- While rising incomes may signal economic growth, it could also indicate growing economic polarization. This could particularly affect districts with more uniform income distributions, such as *Nørrebro* and *Bispebjerg*, where economic diversity may foster a another spectrum of political beliefs and values as we saw in the party vote shares and winning parties in the election analysis. As the city becomes more expensive to live in, some residents may also be priced out, leading to a wealthier overall population which needs to be noticed and planned for in the future -->
-Rising incomes may indicate economic growth but also signal economic polarization, particularly in districts like *Nørrebro* and *Bispebjerg*, where income diversity may influence political dynamics. As living costs rise, some residents may be priced out, shifting the population toward higher-income groups — a trend that requires future attention and planning.
-(*Source: [Via Ritzau](https://via.ritzau.dk/pressemeddelelse/13726689/ny-undersogelse-derfor-flytter-tusindvis-hvert-ar-til-og-fra-kobenhavn?lang=da)*) 
-However, this polarization trend may also contribute to higher voter turnout in some areas. For instance, *Falkoner* — with 56.6% of households earning more than 500,000 DKK annually — also has the highest voter turnout (Figure 1, DATA), and the polarization could lead to higher voter turnout (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). However, as *Tårnby* show the same income pattern as *Falkoner* with more than a third of households earning above 750,000 DKK annually, it does not exhibit the same high voter turnout. So high income might not directly influence voter turnout. However, the income could still have an influence on the left- and right-wing dynamics of the votes, as *Tårnby* shows a different voting pattern from the rest of the districts voting primarilly for *Socialdemokratiet*, *Venstre* and *Dansk Folkeparti*. Some of this might be explained by *Tårnby* actually earning slightly more than *Falkoner*, but there is a factor of how many people per household and whether these people are children or adults, which could also be expected to influence dynamic.
+Rising incomes may indicate economic growth but also signal economic polarization, particularly in districts like *Nørrebro* and *Bispebjerg*, where income diversity may influence political dynamics. As living costs rise, some residents may be priced out, shifting the population toward higher-income groups — a trend that requires future attention and planning
+(*Source: [Via Ritzau](https://via.ritzau.dk/pressemeddelelse/13726689/ny-undersogelse-derfor-flytter-tusindvis-hvert-ar-til-og-fra-kobenhavn?lang=da)*). 
+However, this polarization trend may also contribute to higher voter turnout in some areas. For instance, *Falkoner* — with 56.6% of households earning more than 500,000 DKK annually — also has the highest voter turnout (Figure 1, DATA), and the polarization could lead to higher voter turnout (*Source: [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0176268020301142)*). However, as *Tårnby* show the same income pattern as *Falkoner* with more than a third of households earning above 750,000 DKK annually, it does not exhibit the same high voter turnout. So high income might not directly influence voter turnout. However, the income could still have an influence on the left- and right-wing dynamics of the votes, as *Tårnby* shows a different voting pattern from the rest of the districts voting primarily for *Socialdemokratiet*, *Venstre* and *Dansk Folkeparti*. Some of this might be explained by *Tårnby* actually earning slightly more than *Falkoner*, but there is a factor of how many people per household and whether these people are children or adults, which could also be expected to influence dynamic.
 
 Overall, while the income distributions across districts are evolving, with rising affluence and a shrinking share of lower-income households, the relationship between income and political preferences remains complex. Similar income profiles do not necessarily translate into similar voting patterns, as demonstrated by the contrasting political landscapes in districts like *Falkoner* and *Tårnby*, where comparable income levels are associated with distinctly different electoral outcomes. 
 

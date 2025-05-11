@@ -65,7 +65,7 @@ We specifically filtered the data to the following constituencies within **Købe
 
 </div>
 
-While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 seats (mandates), 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, 135 of the mandates are allocated directly in the 10 multi-member constituencies (like Københavns Storkreds) based on vote counts in each multi-member constituencies, hence all the constituencies of Copenhagen together contribute to the same pool of mandates from Copenhagen Storkreds. The last 40 mandates are distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
+While some constituencies may appear geographically larger than others, this does not reflect population size. For instance, *Indre By* looks smaller on the map than *Tårnby*, but it has a significantly larger population. Additionally, it’s important to understand how seats (mandates) in the Danish Parliament (*Folketinget*) are allocated. Of the 179 seats (mandates), 175 are elected in Denmark, while 2 come from Greenland and 2 from the Faroe Islands. Parliamentary mandates are not tied to specific constituencies. Instead, 135 of the mandates are allocated directly in the 10 multi-member constituencies (like Københavns Storkreds) based on vote counts in each multi-member constituencies, hence all the constituencies of Copenhagen together contribute to the same pool of mandates from Københavns Storkreds. The last 40 mandates are distributed nationally to ensure proportionality between a party’s total national vote share and the number of seats they hold (*Source: [ft.dk](https://www.ft.dk/da/folkestyret/valg-og-afstemninger/hvordan-man-stemmer)*).
 
 <br>
 
@@ -144,8 +144,9 @@ The sociodemographic data covers a wide range of characteristics, which we group
 
 In the following sections some basic statistics are presented in order to gain knowledge and understanding of the data.
 
-### Vote Turnout 
+### Voter Turnout 
 To begin, we examine the election data by looking at voter turnout over time — both for Copenhagen as a whole and for each individual constituency. Voter turnout is calculated as the number of votes cast divided by the number of eligible voters, both of which are provided in the dataset.  
+
 The figure below shows voter turnout in each constituency across national elections over the past two decades. To zoom in on a specific time period, hover over the chart — when your cursor turns into a ‘+’, click and drag across the range you want to zoom in on. You can also deselect specific districts by clicking their colored labels in the legend.
 
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
@@ -160,8 +161,7 @@ The figure below shows voter turnout in each constituency across national electi
 </figure>
 
 *So what can we takeaway from this illustration?*  
-Notably, the *Bispebjerg* constituency consistently shows the lowest turnout in every election, while *Falkoner* consistently has the highest. These differences become particularly interesting when we later examine population data to identify patterns that may help explain variations in voting behavior across districts.  
-When comparing individual constituencies to the overall average turnout in Copenhagen, we observe that *Bispebjerg*, *Valby*, *Sundbyvester*, *Sundbyøster*, and *Brønshøj* consistently fall below the citywide average. This suggests that these areas tend to have lower levels of voter engagement compared to other parts of Copenhagen.
+Notably, the *Bispebjerg* constituency consistently shows the lowest turnout in every election, while *Falkoner* consistently has the highest. These differences become particularly interesting when we later examine population data to identify patterns that may help explain variations in voting behavior across districts. When comparing individual constituencies to the overall average turnout in Copenhagen, we observe that *Bispebjerg*, *Valby*, *Sundbyvester*, *Sundbyøster*, and *Brønshøj* consistently fall below the citywide average. This suggests that these areas tend to have lower levels of voter engagement compared to other parts of Copenhagen.
 
 <br>
 

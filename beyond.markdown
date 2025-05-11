@@ -19,7 +19,7 @@ In this final section, we offer insights that bridge voting behavior with the re
 <br>
 
 ### And then there was Tårnby 
-Let’s start with the politics. *Tårnby* is Copenhagen’s most right-leaning district, just ahead of Frederiksberg (*Slots* & *Falkoner*). But the top party choices in each reveal a deeper divide: while both districts favor Socialdemokratiet and Venstre, Frederiksberg leans toward Radikale Venstre — *Tårnby* toward *Dansk Folkeparti*. Those last two couldn’t be more different (see more in the [ELECTIONS](../elections#elections)).
+Let’s start with the politics. *Tårnby* is Copenhagen’s most right-leaning district, just ahead of Frederiksberg (*Slots* & *Falkoner*). But the top party choices in each reveal a deeper divide: while both districts favor *Socialdemokratiet* and *Venstre*, Frederiksberg leans toward *Radikale Venstre* — *Tårnby* toward *Dansk Folkeparti*. Those last two couldn’t be more different (see more in the [ELECTIONS](../elections#elections)).
 
 The same “looks similar, behaves differently” pattern shows up in the demographics. Income levels and welfare stats put Tårnby on par with Frederiksberg. But the age and education story is a whole other thing.  
 In every other district, 20–29-year-olds dominate, but not in *Tårnby* - here they’re the smallest group. While other areas are dominated by residents with Master’s degrees, *Tårnby* is the opposite: Vocational education is the most common, outnumbering Master’s degrees by a factor of four (see the visuals in the [SOCIODEMOGRAPHICS](../demographics#Sociodemographics) page).  
@@ -38,25 +38,23 @@ Unlike other districts, this shift can’t be explained by a rising level of edu
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 8: Tårnby's most Popular Parties Vote Shares over Time</strong> The vote share of the three most popular parties: Socialdemokratiet, Venstre and Dansk Folkeparti (DF) over the 6 election years.
+        <strong>Figure 8: Tårnby's most Popular Parties Vote Shares over Time</strong> The vote share of the three most popular parties: Socialdemokratiet, Venstre and Dansk Folkeparti over the 6 election years.
         </figcaption>
 </figure>
 
 
-This plot shows how Tårnby’s three most popular parties have changed over time. We see a sharp decline in support for Venstre and Dansk Folkeparti, and a strong increase in votes for Socialdemokratiet. This shift largely explains Tårnby’s overall move to the left. However, we cannot explain this shift through our demographic data, so perhaps it comes from the parties themselves.
-
-
+This plot shows how *Tårnby*'s three most popular parties have changed over time. We see a sharp decline in support for *Venstre* and *Dansk Folkeparti*, and a strong increase in votes for *Socialdemokratiet*. This shift largely explains *Tårnby*'s overall move to the left. However, we cannot explain this shift through our demographic data, so perhaps it comes from the parties themselves.
 
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-top: 1em;">
   <!-- Text section -->
   <div style="flex: 2;">
     <p>
-        In 2018, Socialdemokratiet introduced a new immigration policy, “Retfærdig og realistisk” (“Fair and Realistic”), marking a shift toward stricter immigration rules, similar to Dansk Folkeparti.
+        In 2018, Socialdemokratiet introduced a new immigration policy, “Retfærdig og realistisk” (“Fair and Realistic”), marking a shift toward stricter immigration rules, similar to Dansk Folkeparti
         <span style="font-style: italic;">(Source: 
-          <a href="https://www.kristeligt-dagblad.dk/danmark/hvorfor-skiftede-s-udlaendingepolitik" target="_blank" rel="noopener noreferrer">Kristeligt Dagblad</a>)
+          <a href="https://www.kristeligt-dagblad.dk/danmark/hvorfor-skiftede-s-udlaendingepolitik" target="_blank" rel="noopener noreferrer">Kristeligt Dagblad</a>).
         </span>
-        This aligns with the data: as Socialdemokratiet adopted a more restrictive immigration policy, its support rose in Tårnby while DF’s declined. New parties with stricter immigration politics emerged in 2019 and 2022, and internal struggles within DF may also have contributed to its drop. 
+        This aligns with the data: as Socialdemokratiet adopted a more restrictive immigration policy, its support rose in Tårnby while Dansk Folkeparti’s declined. New parties with stricter immigration politics emerged in 2019 and 2022, and internal struggles within Dansk Folkeparti may also have contributed to its drop. 
     </p>
     <p>
         Tårnby as a case study allowed us to connect all our demographic measures with the election votes. While some trends align and explain part of the story, the strong left shift over the two decades couldn't be explained through our data alone. By connecting the data with external political shifts, we found an answer. This highlights the complexity of the data and the many factors to account for.
