@@ -8,7 +8,7 @@ subtitle: Analysis of Election Data in Copenhagen
 ---
 
 <h2 id="welcome" style="margin-bottom: 0.2em;">Think You Know How Copenhagen Votes?</h2>
-<h3 id="welcome" style="margin-top: 0;">Let the data decide.</h3>
+<h3 id="welcome" style="margin-top: 0;">Let the data decide</h3>
 
 This page is your guide to understanding political trends and demographic shifts across Copenhagen’s neighborhoods over the past two decades.
 
@@ -24,7 +24,7 @@ We suggest, you start by going to the [next page](../data#dataset), DATA, where 
 
 ### Hit play for a Speedy Intro
 
-For a fun and short introduction to the project, check out our video from Project Assignment A. We have also used some of the phrases from this song throuhout our website!
+For a fun and short introduction to the project, check out our cool video. We use some of the phrases from this song throuhout our website!
 <!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Li7nbBsR0Qw" frameborder="0" allowfullscreen></iframe> -->
 <figure style="text-align: center; margin: 2rem auto; max-width: 900px;">
     <iframe src="https://www.youtube.com/embed/Li7nbBsR0Qw" 
@@ -33,7 +33,7 @@ For a fun and short introduction to the project, check out our video from Projec
             height="520">
     </iframe>
     <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 1:</strong> Introduction video for the project, providing an overview of the key objectives, data sources, and introductory analysis approach. Song: text written by us, while the song is made using Suno (AI). Images and drawings from various sources.
+        <strong>Figure 1:</strong> Introduction video for the project, providing an overview of the key objectives, data sources, and introductory analysis approach. The text is written by us while the song was generated using Suno (AI). Images and drawings are sourced from various platforms.
     </figcaption>
 </figure>
 

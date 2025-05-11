@@ -15,7 +15,7 @@ From climate debates to coalition politics, from stable party loyalties to shift
 
 <br>
 
-### How Copenhagen Votes: Mapping the Left and Right Over Time
+## How Copenhagen Votes: Mapping the Left and Right Over Time
 
 > 🎵 *In Copenhagen’s twelve domains*\
 > 🎵 *Did left-wing rise? Did right-wing wane?*
