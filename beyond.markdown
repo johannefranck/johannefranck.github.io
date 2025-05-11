@@ -19,11 +19,11 @@ In this final section, we offer insights that bridge voting behavior with the re
 <br>
 
 ### And then there was Tårnby 
-Let’s start with the politics. *Tårnby* is Copenhagen’s most right-leaning district, just ahead of Frederiksberg (*Slots* & *Falkoner*). But the top party choices in each reveal a deeper divide: while both districts favor *Socialdemokratiet* and *Venstre*, Frederiksberg leans toward *Radikale Venstre* — *Tårnby* toward *Dansk Folkeparti*. Those last two couldn’t be more different (see more in the [ELECTIONS](../elections#elections)).
+Let’s start with the politics. *Tårnby* is Copenhagen’s most right-leaning district, just ahead of Frederiksberg (*Slots* & *Falkoner*). But the top party choices in each reveal a deeper divide: while both districts favor *Socialdemokratiet* and *Venstre*, Frederiksberg leans toward *Radikale Venstre* — *Tårnby* toward *Dansk Folkeparti*. Those last two could not be more different (see more in the [ELECTIONS](../elections#elections)).
 
-The same “looks similar, behaves differently” pattern shows up in the demographics. Income levels and welfare stats put Tårnby on par with Frederiksberg. But the age and education story is a whole other thing.  
-In every other district, 20–29-year-olds dominate, but not in *Tårnby* - here they’re the smallest group. While other areas are dominated by residents with Master’s degrees, *Tårnby* is the opposite: Vocational education is the most common, outnumbering Master’s degrees by a factor of four (see the visuals in the [SOCIODEMOGRAPHICS](../demographics#Sociodemographics) page).  
-As mentioned in the Sociodemographics page, less education often links to conservative voting, while younger, highly educated voters tend to lean green or progressive. That’s a big clue to why Tårnby stands out politically.
+The same “looks similar, behaves differently” pattern shows up in the demographics. Income levels and welfare stats put *Tårnby* on par with Frederiksberg. But the age and education story is a whole other thing.  
+In every other district, 20–29-year-olds dominate, but not in *Tårnby* - here they are the smallest group. While other areas are dominated by residents with Master’s degrees, *Tårnby* is the opposite: Vocational education is the most common, outnumbering Master’s degrees by a factor of four (see the visuals in the [SOCIODEMOGRAPHICS](../demographics#Sociodemographics) page).  
+As mentioned in the Sociodemographics page, less education often links to conservative voting, while younger, highly educated voters tend to lean green or progressive. That is a big clue to why *Tårnby* stands out politically.
 
 > 🎵 *With parties shifting left and right*  
 > 🎵 *Do neighborhoods still match the hype?*  
@@ -38,7 +38,7 @@ Unlike other districts, this shift can’t be explained by a rising level of edu
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 8: Tårnby's most Popular Parties Vote Shares over Time</strong> The vote share of the three most popular parties: Socialdemokratiet, Venstre and Dansk Folkeparti over the 6 election years.
+        <strong>Figure 8: <em>Tårnby</em>'s most Popular Parties Vote Shares over Time</strong> The vote share of the three most popular parties: <em>Socialdemokratiet</em>, <em>Venstre</em> and <em>Dansk Folkeparti</em> over the 6 election years.
         </figcaption>
 </figure>
 
@@ -50,14 +50,14 @@ This plot shows how *Tårnby*'s three most popular parties have changed over tim
   <!-- Text section -->
   <div style="flex: 2;">
     <p>
-        In 2018, Socialdemokratiet introduced a new immigration policy, “Retfærdig og realistisk” (“Fair and Realistic”), marking a shift toward stricter immigration rules, similar to Dansk Folkeparti
+        In 2018, <em>Socialdemokratiet</em> introduced a new immigration policy, “Retfærdig og realistisk” (“Fair and Realistic”), marking a shift toward stricter immigration rules, similar to <em>Dansk Folkeparti</em>
         <span style="font-style: italic;">(Source: 
           <a href="https://www.kristeligt-dagblad.dk/danmark/hvorfor-skiftede-s-udlaendingepolitik" target="_blank" rel="noopener noreferrer">Kristeligt Dagblad</a>).
         </span>
-        This aligns with the data: as Socialdemokratiet adopted a more restrictive immigration policy, its support rose in Tårnby while Dansk Folkeparti’s declined. New parties with stricter immigration politics emerged in 2019 and 2022, and internal struggles within Dansk Folkeparti may also have contributed to its drop. 
+        This aligns with the data: as <em>Socialdemokratiet</em> adopted a more restrictive immigration policy, its support rose in <em>Tårnby</em> while <em>Dansk Folkeparti</em>’s declined. New parties with stricter immigration politics emerged in 2019 and 2022, and internal struggles within <em>Dansk Folkeparti</em> may also have contributed to its drop. 
     </p>
     <p>
-        Tårnby as a case study allowed us to connect all our demographic measures with the election votes. While some trends align and explain part of the story, the strong left shift over the two decades couldn't be explained through our data alone. By connecting the data with external political shifts, we found an answer. This highlights the complexity of the data and the many factors to account for.
+        <em>Tårnby</em> as a case study allowed us to connect all our demographic measures with the election votes. While some trends align and explain part of the story, the strong left shift over the two decades couldn't be explained through our data alone. By connecting the data with external political shifts, we found an answer. This highlights the complexity of the data and the many factors to account for.
     </p>
   </div>
 
@@ -85,8 +85,8 @@ This plot shows how *Tårnby*'s three most popular parties have changed over tim
 
 The district voting patterns tend to cluster, with distinct differences emerging within these groupings based on similar voting behavior and trends. In the last election in 2022, all districts exhibited a shift towards more left-leaning voting behavior compared to previous elections.
 
-From a sociodemographic perspective, the districts display distinct characteristics. Districts with higher concentrations of young adults and residents holding Master's degrees tend to support progressive parties. More young adults are staying in the city over time, while income levels rise and educational attainment becomes increasingly academic across most districts. However, income and education do not appear to correlate consistently across the districts. These sociodemographic distinctions between district groupings may contribute to increased polarization in the future, both between and within districts, potentially further impacting electoral outcomes.
+From a sociodemographic perspective, the districts display distinct characteristics. Districts with higher concentrations of young adults and residents holding Master's degrees tend to support progressive parties. More young adults are staying in the city over time, while income levels rise and educational attainment becomes increasingly academic across most districts. However, income and education do not appear to align consistently across the districts. These sociodemographic distinctions between district groupings may contribute to increased polarization in the future, both between and within districts, potentially further impacting electoral outcomes.
 
 The relationship between demographics and political behavior is complex. While demographic factors offer some insights, political shifts within parties and broader societal changes also play significant roles. This analysis only touches the surface, exploring just a fraction of the variables suspected to affect electoral outcomes.
 
-
+THANKS!
