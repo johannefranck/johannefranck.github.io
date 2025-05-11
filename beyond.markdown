@@ -53,8 +53,8 @@ This plot shows how Tårnby’s three most popular parties have changed over tim
   <div style="flex: 2;">
     <p>
         In 2018, Socialdemokratiet introduced a new immigration policy, “Retfærdig og realistisk” (“Fair and Realistic”), marking a shift toward stricter immigration rules, similar to Dansk Folkeparti.
-        <span style="font-style: italic;">Source: 
-          <a href="https://www.kristeligt-dagblad.dk/danmark/hvorfor-skiftede-s-udlaendingepolitik" target="_blank" rel="noopener noreferrer">Kristeligt Dagblad</a>
+        <span style="font-style: italic;">(Source: 
+          <a href="https://www.kristeligt-dagblad.dk/danmark/hvorfor-skiftede-s-udlaendingepolitik" target="_blank" rel="noopener noreferrer">Kristeligt Dagblad</a>)
         </span>
         This aligns with the data: as Socialdemokratiet adopted a more restrictive immigration policy, its support rose in Tårnby while DF’s declined. New parties with stricter immigration politics emerged in 2019 and 2022, and internal struggles within DF may also have contributed to its drop. 
     </p>
