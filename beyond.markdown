@@ -90,3 +90,8 @@ From a sociodemographic perspective, the districts display distinct characterist
 The relationship between demographics and political behavior is complex. While demographic factors offer some insights, political shifts within parties and broader societal changes also play significant roles. This analysis only touches the surface, exploring just a fraction of the variables suspected to affect electoral outcomes.
 
 THANKS!
+
+
+>🎵 *Election's near, so let's look back.*  
+>🎵 *To trace the steps, along the track.*\
+>🎵 *Vote on!* 
