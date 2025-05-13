@@ -39,7 +39,7 @@ To find out, take a look at the Figure below.
         </figcaption>
 </figure>
 
-The most stricking thing one can notice from this plot is how Copenhagen’s neighborhoods seem to differ a lot when it comes to age. Most districts are dominated by 20–39 year olds - except *Tårnby*, where older age groups are more prominent. In places like *Nørrebro* and *Vesterbro*, nearly 70% of the population is under 40.
+From the figure, one can investigate the age distribution in Copenhagens districts over time. It is evident, that most districts are dominated by the young adults of age 20–39 years olds. This tendency is the clearest in *Nørrebro* and *Vesterbro*, where nearly 70% of the population is under the age of 40. An exception is *Tårnby*, where we see the opoosite - that the 20-29 year olds is the smallest group, and older age groups are more prominent.
 
 Some areas, like *Bispebjerg*, are getting younger over time. Others, like *Vesterbro*, are seeing a shift toward older age groups. But in general, most districts stay surprisingly stable - perhaps this suggest that people move to places that match their demographics?
 
@@ -61,7 +61,7 @@ Copenhagen’s population has changed notably over the past two decades in terms
                 height="550">
         </iframe>
         <figcaption style="margin-top: 0.75rem; font-style: italic;">
-        <strong>Figure 5: Population distribution on highest achieved education level by district from 2004 to 2019.</strong> Each color band shows an education level's share of the total population. Use the dropdown to change district, the legend to filter education level groups, and click-drag to zoom. Double-click to reset axes.
+        <strong>Figure 5: Population distribution of adults on highest achieved education level by district from 2004 to 2019.</strong> Each color band shows an education level's share of the total population. Use the dropdown to change district, the legend to filter education level groups, and click-drag to zoom. Double-click to reset axes.
         </figcaption>
 </figure>
 
