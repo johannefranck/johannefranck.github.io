@@ -83,14 +83,15 @@ This plot shows how *Tårnby*'s three most popular parties have changed over tim
 
 ### Where to Next? More to Explore
 
-The district voting patterns tend to cluster, with distinct differences emerging within these groupings based on similar voting behavior and trends. In the last election in 2022, all districts exhibited a shift towards more left-leaning voting behavior compared to previous elections.
+The district voting patterns tend to cluster, with distinct differences emerging within these groupings based on similar voting behavior and trends. From 2005 to 2022, districts in Copenhagen generally exhibited a shift towards more left-leaning voting behavior.
 
-From a sociodemographic perspective, the districts display distinct characteristics. Districts with higher concentrations of young adults and residents holding Master's degrees tend to support progressive parties. More young adults are staying in the city over time, while income levels rise and educational attainment becomes increasingly academic across most districts. However, income and education do not appear to align consistently across the districts. These sociodemographic distinctions between district groupings may contribute to increased polarization in the future, both between and within districts, potentially further impacting electoral outcomes.
+From a sociodemographic perspective, the districts display distinct characteristics. Districts with higher concentrations of young adults and residents holding Master's degrees tend to support progressive parties. More young adults are staying in the city over time, while income levels rise and educational attainment becomes increasingly academic across most districts. However, income and education do not consistently align across districts. These sociodemographic distinctions may contribute to increasing polarization, both between and within districts, potentially further impacting electoral outcomes.
 
-The relationship between demographics and political behavior is complex. While demographic factors offer some insights, political shifts within parties and broader societal changes also play significant roles. This analysis only touches the surface, exploring just a fraction of the variables suspected to affect electoral outcomes.
+The relationship between demographics and political behavior is complex. While demographic factors offer some insights, political shifts within parties and broader societal changes also play significant roles. This analysis only scratches the surface, exploring just a fraction of the variables potentially influencing electoral outcomes.
+
+Now, we invite you, dear reader: What sets *Nørrebro* politically apart, with its higher share of *Enhedslisten* votes compared to other inner-city districts? Is the increasingly younger population in *Valby* reflected in its voting patterns? There are more trends to uncover — what will you discover?
 
 THANKS!
-
 
 >🎵 *Election's near, so let's look back.*  
 >🎵 *To trace the steps, along the track.*\
